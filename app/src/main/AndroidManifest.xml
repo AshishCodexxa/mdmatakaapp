@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.md.mataka">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.md.mataka.deposit_money"></activity>
+        <activity android:name="com.md.mataka.webview" />
+        <activity android:name="com.md.mataka.chart_menu" />
+        <activity android:name="com.md.mataka.charts" />
+        <activity android:name="com.md.mataka.crossing" />
+        <activity android:name="com.md.mataka.earn" />
+        <activity android:name="com.md.mataka.fullsangam" />
+        <activity android:name="com.md.mataka.halfsangam" />
+        <activity android:name="com.md.mataka.betting" />
+        <activity android:name="com.md.mataka.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.md.mataka.ledger" />
+        <activity android:name="com.md.mataka.transactions" />
+        <activity android:name="com.md.mataka.played" />
+        <activity android:name="com.md.mataka.howot" />
+        <activity android:name="com.md.mataka.thankyou" />
+        <activity android:name="com.md.mataka.bazar" />
+        <activity android:name="com.md.mataka.notice" />
+        <activity android:name="com.md.mataka.rate" />
+        <activity android:name="com.md.mataka.profile" />
+        <activity android:name="com.md.mataka.signup" />
+        <activity android:name="com.md.mataka.login" />
+        <activity android:name="com.md.mataka.MainActivity" />
+    </application>
+
+</manifest>

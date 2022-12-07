@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MD Mataka</string>
+
+    <!--APIs-->
+    <string name="market_api">market.php</string>
+    <string name="market_list">market_list.php</string>
+    <string name="bet">bet.php</string>
+    <string name="charts">charts.php</string>
+    <string name="sangam">sangam.php</string>
+    <string name="content">content.php</string>
+    <string name="ledger">gameledger.php</string>
+    <string name="login">login.php</string>
+    <string name="home">home.php</string>
+    <string name="games">games.php</string>
+    <string name="profile">profile.php</string>
+    <string name="password">password.php</string>
+    <string name="rate">rate.php</string>
+    <string name="register">register.php</string>
+    <string name="transaction">transaction.php</string>
+    <string name="get_gateway">get_gateway.php</string>
+
+
+</resources>

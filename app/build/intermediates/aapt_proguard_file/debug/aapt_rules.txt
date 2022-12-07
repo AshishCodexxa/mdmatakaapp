@@ -1,0 +1,109 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.md.mataka.MainActivity { <init>(); }
+-keep class com.md.mataka.bazar { <init>(); }
+-keep class com.md.mataka.betting { <init>(); }
+-keep class com.md.mataka.chart_menu { <init>(); }
+-keep class com.md.mataka.charts { <init>(); }
+-keep class com.md.mataka.crossing { <init>(); }
+-keep class com.md.mataka.deposit_money { <init>(); }
+-keep class com.md.mataka.earn { <init>(); }
+-keep class com.md.mataka.fullsangam { <init>(); }
+-keep class com.md.mataka.halfsangam { <init>(); }
+-keep class com.md.mataka.howot { <init>(); }
+-keep class com.md.mataka.ledger { <init>(); }
+-keep class com.md.mataka.login { <init>(); }
+-keep class com.md.mataka.notice { <init>(); }
+-keep class com.md.mataka.played { <init>(); }
+-keep class com.md.mataka.profile { <init>(); }
+-keep class com.md.mataka.rate { <init>(); }
+-keep class com.md.mataka.signup { <init>(); }
+-keep class com.md.mataka.splash { <init>(); }
+-keep class com.md.mataka.thankyou { <init>(); }
+-keep class com.md.mataka.transactions { <init>(); }
+-keep class com.md.mataka.webview { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SwitchCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.md.mataka.latobold { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.md.mataka.latonormal { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.mikepenz.materialdrawer.view.BezelImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.mikepenz.materialize.view.ScrimInsetsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.mikepenz.materialize.view.ScrimInsetsRelativeLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.smarteist.autoimageslider.SliderView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class im.delight.android.webview.AdvancedWebView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class lib.kingja.switchbutton.SwitchMultiButton { <init>(android.content.Context, android.util.AttributeSet); }
+
