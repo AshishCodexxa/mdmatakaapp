@@ -896,6 +896,10 @@
         "source": "com.md.mataka.app-appcompat-1.2.0-9:/layout/abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "com.md.mataka.app-merged_res-21:/drawable_name_container.xml.flat",
+        "source": "com.md.mataka.app-main-23:/drawable/name_container.xml"
+    },
+    {
         "merged": "com.md.mataka.app-merged_res-21:/layout_material_drawer_compact_header.xml.flat",
         "source": "com.md.mataka.app-jetified-materialdrawer-6.1.2-11:/layout/material_drawer_compact_header.xml"
     },

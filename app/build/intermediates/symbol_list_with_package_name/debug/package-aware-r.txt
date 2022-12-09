@@ -1679,6 +1679,7 @@ drawable material_drawer_shadow_top
 drawable menu
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
+drawable name_container
 drawable name_gradiant
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -1812,7 +1813,7 @@ id bounce
 id buttonPanel
 id cache_measures
 id calling
-id cardView
+id card
 id center
 id center_horizontal
 id center_vertical

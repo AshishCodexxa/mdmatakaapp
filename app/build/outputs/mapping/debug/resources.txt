@@ -1,40 +1,40 @@
-Marking id:notification_main_column:2131296531 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:number:2131296533 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking id:amount:2131296324 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:multiply:2131296523 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:easeOut:2131296405 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:middle:2131296517 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:staticPostLayout:2131296623 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:parentRelative:2131296541 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:collapseActionView:2131296361 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:stop:2131296624 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:name:2131296525 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:email:2131296407 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:mobile:2131296519 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:submit:2131296627 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:password:2131296543 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:confirm:2131296363 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:submit2:2131296628 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_profile:2131492907 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:profile:2131624042 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:password:2131624036 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking id:back:2131296333 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:betlayout:2131492914 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:tag_screen_reader_focusable:2131296639 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:text:2131296643 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_thankyou:2131492911 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:mtrl_internal_children_alpha_tag:2131296522 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:toggle:2131296657 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:screen:2131296573 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:progress_horizontal:2131296554 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:myimage:2131296524 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:totalamount:2131296661 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:scrollView:2131296577 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:recyclerview:2131296558 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_crossing:2131492896 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:bet:2131623965 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:labeled:2131296455 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:textinput_counter:2131296649 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:layout:2131296457 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:time:2131296653 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_howot:2131492901 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:content:2131623970 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:scrollIndicatorDown:2131296575 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:search:2131296579 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_chart_menu:2131492894 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:charts:2131623969 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:select_dialog_singlechoice_material:2131492969 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:filled:2131296420 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:fill_vertical:2131296419 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:search_plate:2131296587 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:search_mag_icon:2131296586 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:simple_list_item_1:2131492970 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:firstitle:2131296422 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:first:2131296421 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:secondtitle:2131296591 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:second:2131296590 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_fullsangam:2131492899 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:sangam:2131624045 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:useLogo:2131296678 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:webview:2131296682 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_charts:2131492895 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_transactions:2131492912 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:transaction:2131624048 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
@@ -42,33 +42,33 @@ Marking color:md_green_800:2131099879 reachable: referenced from D:\MD-Matka\bet
 Marking color:md_red_600:2131100010 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:market_layout:2131492932 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking id:balance:2131296335 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:showCustom:2131296596 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:italic:2131296450 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:cos:2131296369 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:showHome:2131296597 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:disableScroll:2131296392 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:transition_position:2131296667 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:grouping:2131296434 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:forever:2131296425 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:enterAlways:2131296409 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:list_item:2131296463 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:ratio:2131296556 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:submit:2131296627 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:submenuarrow:2131296626 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:single:2131296600 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:jodi:2131296452 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:crossing:2131296371 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:singlepatti:2131296601 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:doublepatti:2131296394 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:tripepatti:2131296671 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:halfsangam:2131296436 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:fullsangam:2131296427 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:exit:2131296411 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:logout:2131296465 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:refresh:2131296560 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:supportno:2131296631 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:support:2131296630 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_main:2131492904 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:sin:2131296599 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:slider:2131296603 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:home:2131623981 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking drawable:house:2131230839 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:two_arraw:2131230895 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:user_icon:2131230897 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking drawable:chart_icon:2131230827 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:round_btn:2131230882 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:refer:2131230880 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:rupee_icon:2131230884 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:refer_icon:2131230882 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking drawable:info_icon:2131230845 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:triplepana:2131230894 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:user_icon:2131230896 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:notify_panel_notification_icon_bg:2131230874 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:pointwithdraw:2131230878 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:select:2131230887 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:two_arraw:2131230896 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:wallet_icon:2131230898 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:play_icon:2131230876 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:question:2131230880 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:share_icon:2131230889 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking drawable:logout_icon:2131230851 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:header:2131492931 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:app_name:2131623963 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
@@ -77,39 +77,43 @@ Marking string:games:2131623978 reachable: referenced from D:\MD-Matka\betplay\a
 Marking layout:activity_bazar:2131492892 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:market_api:2131624029 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:market_list:2131624030 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:date:2131296375 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking id:bazar:2131296338 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking id:bet:2131296341 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:progress:2131492965 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:result_layout:2131492966 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_ledger:2131492902 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:ledger:2131623983 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:simple_list_item_1:2131492970 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:openclosecardview:2131492963 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:slider_layout:2131492971 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:played:2131492964 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_notice:2131492905 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_betting:2131492893 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:rectangles:2131296557 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:recyclerview:2131296558 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:remark:2131296561 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:result:2131296562 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_deposit_money:2131492897 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:get_gateway:2131623979 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:vertical:2131296679 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:radio:2131296555 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:switchmultibutton:2131296633 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:whatsapp:2131296683 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:refcode:2131296559 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_signup:2131492909 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:register:2131624044 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:played:2131492964 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:progress:2131492965 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:custom_loading_imageView:2131296374 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking drawable:loadgid:2131230847 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:clip_horizontal:2131296357 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:second:2131296590 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:code:2131296359 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:share:2131296594 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_earn:2131492898 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_splash:2131492910 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_webview:2131492913 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:transition_transform:2131296669 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:type:2131296673 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_halfsangam:2131492900 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:chart_layout:2131492915 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:dragStart:2131296399 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:coordinator:2131296368 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:flip:2131296424 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:draw:2131296401 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:create:2131296370 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:forgot:2131296426 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_login:2131492903 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:login:2131624028 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:disablePostScroll:2131296391 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:transaction:2131492973 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:doublegame:2131296393 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking layout:activity_rate:2131492908 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 Marking string:rate:2131624043 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 android.content.res.Resources#getIdentifier present: true
@@ -1507,14 +1511,15 @@ Marking id:dimensions:2131296388 used because it matches string pool constant di
 Marking attr:viewInflaterClass:2130969307 used because it matches string pool constant view
 Marking id:view_offset_helper:2131296680 used because it matches string pool constant view
 Marking id:name:2131296525 used because it matches string pool constant name
-Marking drawable:name_gradiant:2131230861 used because it matches string pool constant name
+Marking drawable:name_container:2131230861 used because it matches string pool constant name
+Marking drawable:name_gradiant:2131230862 used because it matches string pool constant name
 Marking id:name:2131296525 used because it matches string pool constant name
 Marking id:singlepatti:2131296601 used because it matches string pool constant singlepatti
 Marking id:singlepatti:2131296601 used because it matches string pool constant singlepatti
-Marking drawable:whatsapp:2131230899 used because it matches string pool constant whatsapp
+Marking drawable:whatsapp:2131230900 used because it matches string pool constant whatsapp
 Marking id:whatsapp:2131296683 used because it matches string pool constant whatsapp
-Marking drawable:whatsapp:2131230899 used because it matches string pool constant whatsapp
-Marking drawable:whatsapps:2131230900 used because it matches string pool constant whatsapp
+Marking drawable:whatsapp:2131230900 used because it matches string pool constant whatsapp
+Marking drawable:whatsapps:2131230901 used because it matches string pool constant whatsapp
 Marking id:whatsapp:2131296683 used because it matches string pool constant whatsapp
 Marking id:whatsapps:2131296684 used because it matches string pool constant whatsapp
 Marking attr:color:2130968724 used because it matches string pool constant color
@@ -1579,8 +1584,8 @@ Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131165328 used becaus
 Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131165329 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131165330 used because it matches string pool constant item
 Marking id:item_touch_helper_previous_elevation:2131296451 used because it matches string pool constant item
-Marking drawable:wallet_icon:2131230897 used because it matches string pool constant wallet
-Marking drawable:wallet_out:2131230898 used because it matches string pool constant wallet
+Marking drawable:wallet_icon:2131230898 used because it matches string pool constant wallet
+Marking drawable:wallet_out:2131230899 used because it matches string pool constant wallet
 Marking attr:hintAnimationEnabled:2130968881 used because it matches string pool constant hin
 Marking attr:hintEnabled:2130968882 used because it matches string pool constant hin
 Marking attr:hintTextAppearance:2130968883 used because it matches string pool constant hin
@@ -1751,8 +1756,8 @@ Marking id:single:2131296600 used because it matches string pool constant single
 Marking attr:singleChoiceItemLayout:2130969148 used because it matches string pool constant single
 Marking attr:singleLine:2130969149 used because it matches string pool constant single
 Marking attr:singleSelection:2130969150 used because it matches string pool constant single
-Marking drawable:singledigit:2131230889 used because it matches string pool constant single
-Marking drawable:singlepana:2131230890 used because it matches string pool constant single
+Marking drawable:singledigit:2131230890 used because it matches string pool constant single
+Marking drawable:singlepana:2131230891 used because it matches string pool constant single
 Marking id:single:2131296600 used because it matches string pool constant single
 Marking id:singlepatti:2131296601 used because it matches string pool constant single
 Marking layout:openclosecardview:2131492963 used because it matches string pool constant open
@@ -3829,6 +3834,7 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
     @dimen/mtrl_snackbar_background_corner_radius
     @color/design_snackbar_background_color
 @drawable/mtrl_tabs_default_indicator : reachable=false
+@drawable/name_container : reachable=true
 @drawable/name_gradiant : reachable=true
 @drawable/navigation_empty_icon : reachable=true
     @dimen/design_navigation_icon_size
@@ -3855,23 +3861,23 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @drawable/notification_template_icon_low_bg : reachable=false
 @drawable/notification_tile_bg : reachable=false
     @drawable/notify_panel_notification_icon_bg
-@drawable/notify_panel_notification_icon_bg : reachable=true
-@drawable/play_icon : reachable=false
+@drawable/notify_panel_notification_icon_bg : reachable=false
+@drawable/play_icon : reachable=true
 @drawable/playstarline : reachable=false
 @drawable/pointadd : reachable=false
-@drawable/pointwithdraw : reachable=true
-@drawable/question : reachable=false
-@drawable/refer : reachable=true
-@drawable/refer_icon : reachable=false
-@drawable/round_btn : reachable=true
-@drawable/rupee_icon : reachable=false
+@drawable/pointwithdraw : reachable=false
+@drawable/question : reachable=true
+@drawable/refer : reachable=false
+@drawable/refer_icon : reachable=true
+@drawable/round_btn : reachable=false
+@drawable/rupee_icon : reachable=true
 @drawable/sangamfull : reachable=false
 @drawable/sangamhalf : reachable=false
 @drawable/search : reachable=false
-@drawable/select : reachable=true
+@drawable/select : reachable=false
     @color/background
     @color/colorAccent
-@drawable/share_icon : reachable=false
+@drawable/share_icon : reachable=true
 @drawable/singledigit : reachable=true
 @drawable/singlepana : reachable=true
 @drawable/splash : reachable=false
@@ -3881,7 +3887,7 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @drawable/tooltip_frame_light : reachable=false
     @color/tooltip_background_light
     @dimen/tooltip_corner_radius
-@drawable/triplepana : reachable=true
+@drawable/triplepana : reachable=false
 @drawable/two_arraw : reachable=true
 @drawable/user_icon : reachable=true
 @drawable/wallet_icon : reachable=true
@@ -3982,7 +3988,7 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/buttonPanel : reachable=true
 @id/cache_measures : reachable=false
 @id/calling : reachable=false
-@id/cardView : reachable=false
+@id/card : reachable=false
 @id/center : reachable=false
 @id/center_horizontal : reachable=false
 @id/center_vertical : reachable=false
@@ -3991,24 +3997,24 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/checkbox : reachable=false
 @id/checked : reachable=false
 @id/chronometer : reachable=false
-@id/clip_horizontal : reachable=true
+@id/clip_horizontal : reachable=false
 @id/clip_vertical : reachable=false
 @id/code : reachable=true
 @id/coin : reachable=false
-@id/collapseActionView : reachable=true
+@id/collapseActionView : reachable=false
 @id/color : reachable=true
-@id/confirm : reachable=false
+@id/confirm : reachable=true
 @id/container : reachable=false
 @id/content : reachable=true
 @id/contentPanel : reachable=true
 @id/content_layout : reachable=true
-@id/coordinator : reachable=true
-@id/cos : reachable=true
-@id/create : reachable=false
+@id/coordinator : reachable=false
+@id/cos : reachable=false
+@id/create : reachable=true
 @id/crossing : reachable=true
 @id/custom : reachable=true
 @id/customPanel : reachable=true
-@id/custom_loading_imageView : reachable=false
+@id/custom_loading_imageView : reachable=true
 @id/date : reachable=true
 @id/decelerate : reachable=true
 @id/decelerateAndComplete : reachable=true
@@ -4025,27 +4031,27 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/dimensions : reachable=true
 @id/direct : reachable=false
 @id/disableHome : reachable=false
-@id/disablePostScroll : reachable=true
-@id/disableScroll : reachable=true
-@id/doublegame : reachable=false
+@id/disablePostScroll : reachable=false
+@id/disableScroll : reachable=false
+@id/doublegame : reachable=true
 @id/doublepatti : reachable=true
 @id/dragDown : reachable=false
 @id/dragEnd : reachable=false
 @id/dragLeft : reachable=false
 @id/dragRight : reachable=false
-@id/dragStart : reachable=true
+@id/dragStart : reachable=false
 @id/dragUp : reachable=false
-@id/draw : reachable=false
+@id/draw : reachable=true
 @id/drop : reachable=false
 @id/easeIn : reachable=false
 @id/easeInOut : reachable=false
-@id/easeOut : reachable=true
+@id/easeOut : reachable=false
 @id/edit_query : reachable=true
 @id/email : reachable=true
 @id/end : reachable=false
-@id/enterAlways : reachable=true
+@id/enterAlways : reachable=false
 @id/enterAlwaysCollapsed : reachable=false
-@id/exit : reachable=false
+@id/exit : reachable=true
 @id/exitUntilCollapsed : reachable=false
 @id/expand_activities_button : reachable=false
 @id/expanded_menu : reachable=false
@@ -4053,14 +4059,14 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/fastadapter_item_adapter : reachable=true
 @id/fill : reachable=false
 @id/fill_horizontal : reachable=false
-@id/fill_vertical : reachable=true
-@id/filled : reachable=true
-@id/first : reachable=false
-@id/firstitle : reachable=false
+@id/fill_vertical : reachable=false
+@id/filled : reachable=false
+@id/first : reachable=true
+@id/firstitle : reachable=true
 @id/fixed : reachable=false
-@id/flip : reachable=true
-@id/forever : reachable=true
-@id/forgot : reachable=false
+@id/flip : reachable=false
+@id/forever : reachable=false
+@id/forgot : reachable=true
 @id/fullsangam : reachable=true
 @id/ghost_view : reachable=false
 @id/glide_custom_view_target_tag : reachable=true
@@ -4089,7 +4095,7 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/jodi : reachable=true
 @id/jumpToEnd : reachable=false
 @id/jumpToStart : reachable=false
-@id/labeled : reachable=true
+@id/labeled : reachable=false
 @id/largeLabel : reachable=false
 @id/layout : reachable=true
 @id/left : reachable=true
@@ -4099,7 +4105,7 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/listMode : reachable=true
 @id/list_item : reachable=true
 @id/logo : reachable=false
-@id/logout : reachable=false
+@id/logout : reachable=true
 @id/masked : reachable=false
 @id/material_drawer_account_header : reachable=false
 @id/material_drawer_account_header_background : reachable=false
@@ -4151,21 +4157,21 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/material_drawer_toggle : reachable=false
 @id/materialize_root : reachable=true
 @id/message : reachable=true
-@id/middle : reachable=true
+@id/middle : reachable=false
 @id/mini : reachable=false
 @id/mobile : reachable=true
 @id/motion_base : reachable=false
 @id/mtrl_child_content_container : reachable=true
 @id/mtrl_internal_children_alpha_tag : reachable=true
-@id/multiply : reachable=true
-@id/myimage : reachable=false
+@id/multiply : reachable=false
+@id/myimage : reachable=true
 @id/name : reachable=true
 @id/navigation_header_container : reachable=false
 @id/never : reachable=false
 @id/none : reachable=true
 @id/normal : reachable=false
 @id/notification_background : reachable=false
-@id/notification_main_column : reachable=true
+@id/notification_main_column : reachable=false
 @id/notification_main_column_container : reachable=false
 @id/number : reachable=true
 @id/off : reachable=false
@@ -4175,7 +4181,7 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/parallax : reachable=false
 @id/parent : reachable=false
 @id/parentPanel : reachable=true
-@id/parentRelative : reachable=true
+@id/parentRelative : reachable=false
 @id/parent_matrix : reachable=false
 @id/password : reachable=true
 @id/path : reachable=false
@@ -4188,13 +4194,13 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/postLayout : reachable=false
 @id/pountadd : reachable=false
 @id/progress_circular : reachable=false
-@id/progress_horizontal : reachable=true
-@id/radio : reachable=true
-@id/ratio : reachable=true
-@id/rectangles : reachable=true
+@id/progress_horizontal : reachable=false
+@id/radio : reachable=false
+@id/ratio : reachable=false
+@id/rectangles : reachable=false
 @id/recyclerview : reachable=true
 @id/refcode : reachable=true
-@id/refresh : reachable=false
+@id/refresh : reachable=true
 @id/remark : reachable=true
 @id/result : reachable=true
 @id/reverseSawtooth : reachable=false
@@ -4207,13 +4213,13 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/sawtooth : reachable=false
 @id/scale : reachable=true
 @id/scale_down : reachable=true
-@id/screen : reachable=true
+@id/screen : reachable=false
 @id/scroll : reachable=false
 @id/scrollIndicatorDown : reachable=true
 @id/scrollIndicatorUp : reachable=true
 @id/scrollView : reachable=true
 @id/scrollable : reachable=false
-@id/search : reachable=false
+@id/search : reachable=true
 @id/search_badge : reachable=false
 @id/search_bar : reachable=false
 @id/search_button : reachable=true
@@ -4225,19 +4231,19 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/search_src_text : reachable=true
 @id/search_voice_btn : reachable=true
 @id/second : reachable=true
-@id/secondtitle : reachable=false
+@id/secondtitle : reachable=true
 @id/select_dialog_listview : reachable=false
 @id/selected : reachable=false
-@id/share : reachable=false
+@id/share : reachable=true
 @id/shortcut : reachable=true
-@id/showCustom : reachable=true
-@id/showHome : reachable=true
+@id/showCustom : reachable=false
+@id/showHome : reachable=false
 @id/showTitle : reachable=false
-@id/sin : reachable=true
+@id/sin : reachable=false
 @id/single : reachable=true
 @id/singlepatti : reachable=true
 @id/slide : reachable=false
-@id/slider : reachable=false
+@id/slider : reachable=true
 @id/smallLabel : reachable=false
 @id/snackbar_action : reachable=true
 @id/snackbar_text : reachable=true
@@ -4257,17 +4263,17 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/startHorizontal : reachable=false
 @id/startVertical : reachable=false
 @id/staticLayout : reachable=false
-@id/staticPostLayout : reachable=true
-@id/stop : reachable=true
+@id/staticPostLayout : reachable=false
+@id/stop : reachable=false
 @id/stretch : reachable=false
 @id/submenuarrow : reachable=true
 @id/submit : reachable=true
-@id/submit2 : reachable=false
+@id/submit2 : reachable=true
 @id/submit_area : reachable=true
-@id/support : reachable=false
-@id/supportno : reachable=false
+@id/support : reachable=true
+@id/supportno : reachable=true
 @id/swap : reachable=false
-@id/switchmultibutton : reachable=false
+@id/switchmultibutton : reachable=true
 @id/tabMode : reachable=false
 @id/tag_accessibility_actions : reachable=true
 @id/tag_accessibility_clickable_spans : reachable=true
@@ -4287,11 +4293,11 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/textinput_error : reachable=true
 @id/textinput_helper_text : reachable=true
 @id/thinWorm : reachable=false
-@id/time : reachable=false
+@id/time : reachable=true
 @id/title : reachable=true
 @id/titleDividerNoCustom : reachable=true
 @id/title_template : reachable=true
-@id/toggle : reachable=true
+@id/toggle : reachable=false
 @id/toolbar : reachable=false
 @id/top : reachable=true
 @id/topPanel : reachable=true
@@ -4301,22 +4307,22 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @id/transitionToStart : reachable=false
 @id/transition_current_scene : reachable=true
 @id/transition_layout_save : reachable=false
-@id/transition_position : reachable=true
+@id/transition_position : reachable=false
 @id/transition_scene_layoutid_cache : reachable=false
-@id/transition_transform : reachable=true
+@id/transition_transform : reachable=false
 @id/triangle : reachable=false
 @id/tripepatti : reachable=true
 @id/txt_result : reachable=false
-@id/type : reachable=false
+@id/type : reachable=true
 @id/unchecked : reachable=false
 @id/uniform : reachable=false
 @id/unlabeled : reachable=false
 @id/up : reachable=true
-@id/useLogo : reachable=true
-@id/vertical : reachable=true
+@id/useLogo : reachable=false
+@id/vertical : reachable=false
 @id/view_offset_helper : reachable=true
 @id/visible : reachable=false
-@id/webview : reachable=false
+@id/webview : reachable=true
 @id/whatsapp : reachable=true
 @id/whatsapps : reachable=true
 @id/withText : reachable=false
@@ -4849,8 +4855,8 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
 @layout/notification_template_part_time : reachable=false
     @style/TextAppearance_Compat_Notification_Time
 @layout/openclosecardview : reachable=true
-    @drawable/name_gradiant
     @color/md_black_1000
+    @drawable/name_container
 @layout/played : reachable=true
     @color/font
 @layout/progress : reachable=true
@@ -4870,19 +4876,19 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
     @attr/dialogPreferredPadding
-@layout/select_dialog_singlechoice_material : reachable=true
+@layout/select_dialog_singlechoice_material : reachable=false
     @attr/listPreferredItemHeightSmall
     @attr/textColorAlertDialogListItem
     @dimen/abc_select_dialog_padding_start_material
     @attr/dialogPreferredPadding
 @layout/simple_list_item_1 : reachable=true
     @drawable/edittext2
-@layout/slider_layout : reachable=false
+@layout/slider_layout : reachable=true
     @string/app_name
 @layout/support_simple_spinner_dropdown_item : reachable=true
     @attr/spinnerDropDownItemStyle
     @attr/dropdownListPreferredItemHeight
-@layout/transaction : reachable=false
+@layout/transaction : reachable=true
     @color/accent
     @color/background
 @mipmap/ic_launcher : reachable=true
@@ -8594,22 +8600,22 @@ The root reachable resources are:
  drawable:material_drawer_shadow_right:2131230856
  drawable:material_drawer_shadow_top:2131230857
  drawable:menu:2131230858
- drawable:name_gradiant:2131230861
- drawable:navigation_empty_icon:2131230862
- drawable:notify_panel_notification_icon_bg:2131230874
- drawable:pointwithdraw:2131230878
- drawable:refer:2131230880
- drawable:round_btn:2131230882
- drawable:select:2131230887
- drawable:singledigit:2131230889
- drawable:singlepana:2131230890
- drawable:triplepana:2131230894
- drawable:two_arraw:2131230895
- drawable:user_icon:2131230896
- drawable:wallet_icon:2131230897
- drawable:wallet_out:2131230898
- drawable:whatsapp:2131230899
- drawable:whatsapps:2131230900
+ drawable:name_container:2131230861
+ drawable:name_gradiant:2131230862
+ drawable:navigation_empty_icon:2131230863
+ drawable:play_icon:2131230876
+ drawable:question:2131230880
+ drawable:refer_icon:2131230882
+ drawable:rupee_icon:2131230884
+ drawable:share_icon:2131230889
+ drawable:singledigit:2131230890
+ drawable:singlepana:2131230891
+ drawable:two_arraw:2131230896
+ drawable:user_icon:2131230897
+ drawable:wallet_icon:2131230898
+ drawable:wallet_out:2131230899
+ drawable:whatsapp:2131230900
+ drawable:whatsapps:2131230901
  id:SHOW_ALL:2131296262
  id:SHOW_PATH:2131296263
  id:SHOW_PROGRESS:2131296264
@@ -8668,18 +8674,17 @@ The root reachable resources are:
  id:bet:2131296341
  id:bottom:2131296343
  id:buttonPanel:2131296345
- id:clip_horizontal:2131296357
  id:code:2131296359
- id:collapseActionView:2131296361
  id:color:2131296362
+ id:confirm:2131296363
  id:content:2131296365
  id:contentPanel:2131296366
  id:content_layout:2131296367
- id:coordinator:2131296368
- id:cos:2131296369
+ id:create:2131296370
  id:crossing:2131296371
  id:custom:2131296372
  id:customPanel:2131296373
+ id:custom_loading_imageView:2131296374
  id:date:2131296375
  id:decelerate:2131296376
  id:decelerateAndComplete:2131296377
@@ -8687,20 +8692,17 @@ The root reachable resources are:
  id:design_menu_item_action_area_stub:2131296384
  id:design_menu_item_text:2131296385
  id:dimensions:2131296388
- id:disablePostScroll:2131296391
- id:disableScroll:2131296392
+ id:doublegame:2131296393
  id:doublepatti:2131296394
- id:dragStart:2131296399
- id:easeOut:2131296405
+ id:draw:2131296401
  id:edit_query:2131296406
  id:email:2131296407
- id:enterAlways:2131296409
+ id:exit:2131296411
  id:fastadapter_item:2131296415
  id:fastadapter_item_adapter:2131296416
- id:fill_vertical:2131296419
- id:filled:2131296420
- id:flip:2131296424
- id:forever:2131296425
+ id:first:2131296421
+ id:firstitle:2131296422
+ id:forgot:2131296426
  id:fullsangam:2131296427
  id:glide_custom_view_target_tag:2131296429
  id:group_divider:2131296433
@@ -8710,12 +8712,12 @@ The root reachable resources are:
  id:italic:2131296450
  id:item_touch_helper_previous_elevation:2131296451
  id:jodi:2131296452
- id:labeled:2131296455
  id:layout:2131296457
  id:left:2131296458
  id:linear:2131296461
  id:listMode:2131296462
  id:list_item:2131296463
+ id:logout:2131296465
  id:material_drawer_badge:2131296479
  id:material_drawer_badge_container:2131296480
  id:material_drawer_description:2131296481
@@ -8731,25 +8733,19 @@ The root reachable resources are:
  id:material_drawer_sticky_header:2131296511
  id:materialize_root:2131296515
  id:message:2131296516
- id:middle:2131296517
  id:mobile:2131296519
  id:mtrl_child_content_container:2131296521
  id:mtrl_internal_children_alpha_tag:2131296522
- id:multiply:2131296523
+ id:myimage:2131296524
  id:name:2131296525
  id:none:2131296528
- id:notification_main_column:2131296531
  id:number:2131296533
  id:parentPanel:2131296540
- id:parentRelative:2131296541
  id:password:2131296543
  id:position:2131296550
- id:progress_horizontal:2131296554
- id:radio:2131296555
- id:ratio:2131296556
- id:rectangles:2131296557
  id:recyclerview:2131296558
  id:refcode:2131296559
+ id:refresh:2131296560
  id:remark:2131296561
  id:result:2131296562
  id:right:2131296564
@@ -8758,10 +8754,10 @@ The root reachable resources are:
  id:save_non_transition_alpha:2131296568
  id:scale:2131296571
  id:scale_down:2131296572
- id:screen:2131296573
  id:scrollIndicatorDown:2131296575
  id:scrollIndicatorUp:2131296576
  id:scrollView:2131296577
+ id:search:2131296579
  id:search_button:2131296582
  id:search_close_btn:2131296583
  id:search_edit_frame:2131296584
@@ -8771,22 +8767,24 @@ The root reachable resources are:
  id:search_src_text:2131296588
  id:search_voice_btn:2131296589
  id:second:2131296590
+ id:secondtitle:2131296591
+ id:share:2131296594
  id:shortcut:2131296595
- id:showCustom:2131296596
- id:showHome:2131296597
- id:sin:2131296599
  id:single:2131296600
  id:singlepatti:2131296601
+ id:slider:2131296603
  id:snackbar_action:2131296605
  id:snackbar_text:2131296606
  id:spacer:2131296609
  id:split_action_bar:2131296611
  id:standard:2131296618
- id:staticPostLayout:2131296623
- id:stop:2131296624
  id:submenuarrow:2131296626
  id:submit:2131296627
+ id:submit2:2131296628
  id:submit_area:2131296629
+ id:support:2131296630
+ id:supportno:2131296631
+ id:switchmultibutton:2131296633
  id:tag_accessibility_actions:2131296635
  id:tag_accessibility_clickable_spans:2131296636
  id:tag_accessibility_heading:2131296637
@@ -8803,21 +8801,19 @@ The root reachable resources are:
  id:textinput_counter:2131296649
  id:textinput_error:2131296650
  id:textinput_helper_text:2131296651
+ id:time:2131296653
  id:title:2131296654
  id:titleDividerNoCustom:2131296655
  id:title_template:2131296656
- id:toggle:2131296657
  id:top:2131296659
  id:topPanel:2131296660
  id:totalamount:2131296661
  id:transition_current_scene:2131296665
- id:transition_position:2131296667
- id:transition_transform:2131296669
  id:tripepatti:2131296671
+ id:type:2131296673
  id:up:2131296677
- id:useLogo:2131296678
- id:vertical:2131296679
  id:view_offset_helper:2131296680
+ id:webview:2131296682
  id:whatsapp:2131296683
  id:whatsapps:2131296684
  integer:app_bar_elevation_anim_duration:2131361794
@@ -8880,9 +8876,10 @@ The root reachable resources are:
  layout:played:2131492964
  layout:progress:2131492965
  layout:result_layout:2131492966
- layout:select_dialog_singlechoice_material:2131492969
  layout:simple_list_item_1:2131492970
+ layout:slider_layout:2131492971
  layout:support_simple_spinner_dropdown_item:2131492972
+ layout:transaction:2131492973
  mipmap:ic_launcher:2131558400
  mipmap:ic_launcher_round:2131558402
  string:abc_action_bar_up_description:2131623937
@@ -8997,13 +8994,9 @@ Skipped unused resource res/drawable/notification_bg.xml: 751 bytes (replaced wi
 Skipped unused resource res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable/notification_tile_bg.xml: 319 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/play_icon.png: 6508 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/question.png: 5496 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/refer_icon.png: 0 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/rupee_icon.png: 0 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/sangamfull.png: 16600 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/sangamhalf.png: 16993 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/share_icon.png: 0 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/triplepana.png: 15997 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/youtube.png: 17377 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-v21/$avd_hide_password__0.xml: 1644 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/$avd_hide_password__1.xml: 913 bytes (replaced with small dummy file of size 9 bytes)
@@ -9026,6 +9019,7 @@ Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 2
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-hdpi-v4/design_ic_visibility.png: 470 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-hdpi-v4/design_ic_visibility_off.png: 507 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-hdpi-v4/ic_calling.png: 133 bytes (replaced with small dummy file of size 67 bytes)
@@ -9034,6 +9028,7 @@ Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 2
 Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/design_ic_visibility.png: 593 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/design_ic_visibility_off.png: 629 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/ic_calling.png: 175 bytes (replaced with small dummy file of size 67 bytes)
@@ -9042,6 +9037,7 @@ Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/design_ic_visibility.png: 868 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/design_ic_visibility_off.png: 884 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-xxhdpi-v4/ic_calling.png: 239 bytes (replaced with small dummy file of size 67 bytes)
@@ -9100,8 +9096,6 @@ Skipped unused resource res/layout-v16/notification_template_custom_big.xml: 924
 Skipped unused resource res/layout/notification_template_icon_group.xml: 577 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/notification_template_part_chronometer.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout/notification_template_part_time.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/slider_layout.xml: 812 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/transaction.xml: 3859 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-sw600dp-v13/design_layout_snackbar.xml: 681 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-sw600dp-v13/mtrl_layout_snackbar.xml: 663 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/layout-v21/notification_action.xml: 2216 bytes (replaced with small dummy file of size 9 bytes)
