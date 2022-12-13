@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.md.mataka.app-mergeDebugResources-19:/values-v23/values-v23.xml",
+            "outputFile": "com.md.mataka.app-mergeDebugResources-3:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\d4c9e45086bb311ab5f003976f396c14\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\d4c9e45086bb311ab5f003976f396c14\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,17 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\15dfe13844402f29b823e3b9c5b42365\\transformed\\jetified-materialize-1.2.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "51",
-                        "endOffsets": "102"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\7a77ab1aed9e26c0644059c42eb61592\\transformed\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\7a77ab1aed9e26c0644059c42eb61592\\transformed\\appcompat-1.2.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -49,6 +39,16 @@
                         "endLines": "3,4,5,6,20,34,35,36,39,43,44,45,46,50",
                         "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
                         "endOffsets": "237,372,447,534,1272,2022,2141,2268,2490,2714,2829,2936,3049,3279"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\15dfe13844402f29b823e3b9c5b42365\\transformed\\jetified-materialize-1.2.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
                     }
                 }
             ]

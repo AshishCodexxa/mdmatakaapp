@@ -1,4 +1,4 @@
-#Thu Dec 08 18:33:18 IST 2022
-base.0=D\:\\MD-Matka\\betplay\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+#Tue Dec 13 13:12:41 IST 2022
+base.0=C\:\\Codexxa's Projects\\MD MATAKA\\mdmatakaapp\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

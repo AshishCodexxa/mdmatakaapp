@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.md.mataka.app-mergeDebugResources-19:/values-v11/values-v11.xml",
+            "outputFile": "com.md.mataka.app-mergeDebugResources-3:/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\admin\\.gradle\\caches\\transforms-3\\15dfe13844402f29b823e3b9c5b42365\\transformed\\jetified-materialize-1.2.0\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\15dfe13844402f29b823e3b9c5b42365\\transformed\\jetified-materialize-1.2.0\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2,8,12,17,23,27,36,41,45,49",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

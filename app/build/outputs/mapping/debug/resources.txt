@@ -1,121 +1,121 @@
-Marking id:number:2131296533 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:amount:2131296324 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:name:2131296525 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:email:2131296407 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:mobile:2131296519 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:submit:2131296627 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:password:2131296543 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:confirm:2131296363 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:submit2:2131296628 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_profile:2131492907 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:profile:2131624042 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:password:2131624036 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:back:2131296333 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:betlayout:2131492914 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:text:2131296643 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_thankyou:2131492911 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:myimage:2131296524 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:totalamount:2131296661 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:scrollView:2131296577 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:recyclerview:2131296558 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_crossing:2131492896 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:bet:2131623965 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:layout:2131296457 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:time:2131296653 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_howot:2131492901 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:content:2131623970 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:search:2131296579 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_chart_menu:2131492894 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:charts:2131623969 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:simple_list_item_1:2131492970 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:firstitle:2131296422 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:first:2131296421 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:secondtitle:2131296591 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:second:2131296590 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_fullsangam:2131492899 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:sangam:2131624045 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:webview:2131296682 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_charts:2131492895 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_transactions:2131492912 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:transaction:2131624048 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking color:md_green_800:2131099879 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking color:md_red_600:2131100010 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:market_layout:2131492932 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:balance:2131296335 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:single:2131296600 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:jodi:2131296452 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:crossing:2131296371 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:singlepatti:2131296601 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:doublepatti:2131296394 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:tripepatti:2131296671 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:halfsangam:2131296436 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:fullsangam:2131296427 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:exit:2131296411 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:logout:2131296465 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:refresh:2131296560 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:supportno:2131296631 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:support:2131296630 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_main:2131492904 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:slider:2131296603 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:home:2131623981 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:house:2131230839 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:user_icon:2131230897 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:chart_icon:2131230827 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:rupee_icon:2131230884 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:refer_icon:2131230882 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:info_icon:2131230845 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:two_arraw:2131230896 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:wallet_icon:2131230898 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:play_icon:2131230876 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:question:2131230880 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:share_icon:2131230889 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:logout_icon:2131230851 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:header:2131492931 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:app_name:2131623963 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_played:2131492906 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:games:2131623978 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_bazar:2131492892 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:market_api:2131624029 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:market_list:2131624030 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:date:2131296375 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:bazar:2131296338 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:bet:2131296341 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:result_layout:2131492966 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_ledger:2131492902 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:ledger:2131623983 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:slider_layout:2131492971 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:played:2131492964 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_notice:2131492905 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_betting:2131492893 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:remark:2131296561 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:result:2131296562 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_deposit_money:2131492897 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:get_gateway:2131623979 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:switchmultibutton:2131296633 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:whatsapp:2131296683 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:refcode:2131296559 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_signup:2131492909 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:register:2131624044 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:progress:2131492965 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:custom_loading_imageView:2131296374 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking drawable:loadgid:2131230847 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:code:2131296359 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:share:2131296594 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_earn:2131492898 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_splash:2131492910 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_webview:2131492913 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:type:2131296673 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_halfsangam:2131492900 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:chart_layout:2131492915 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:draw:2131296401 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:create:2131296370 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:forgot:2131296426 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_login:2131492903 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:login:2131624028 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:transaction:2131492973 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking id:doublegame:2131296393 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking layout:activity_rate:2131492908 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
-Marking string:rate:2131624043 reachable: referenced from D:\MD-Matka\betplay\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:number:2131296533 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:amount:2131296324 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:name:2131296525 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:email:2131296407 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:mobile:2131296519 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:submit:2131296627 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:password:2131296543 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:confirm:2131296363 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:submit2:2131296628 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_profile:2131492907 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:profile:2131624042 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:password:2131624036 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:back:2131296333 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:betlayout:2131492914 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:text:2131296643 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_thankyou:2131492911 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:myimage:2131296524 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:totalamount:2131296661 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:scrollView:2131296577 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:recyclerview:2131296558 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_crossing:2131492896 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:bet:2131623965 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:layout:2131296457 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:time:2131296653 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_howot:2131492901 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:content:2131623970 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:search:2131296579 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_chart_menu:2131492894 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:charts:2131623969 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:simple_list_item_1:2131492970 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:firstitle:2131296422 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:first:2131296421 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:secondtitle:2131296591 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:second:2131296590 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_fullsangam:2131492899 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:sangam:2131624045 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:webview:2131296682 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_charts:2131492895 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_transactions:2131492912 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:transaction:2131624048 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking color:md_green_800:2131099879 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking color:md_red_600:2131100010 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:market_layout:2131492932 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:balance:2131296335 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:single:2131296600 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:jodi:2131296452 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:crossing:2131296371 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:singlepatti:2131296601 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:doublepatti:2131296394 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:tripepatti:2131296671 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:halfsangam:2131296436 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:fullsangam:2131296427 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:exit:2131296411 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:logout:2131296465 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:refresh:2131296560 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:supportno:2131296631 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:support:2131296630 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_main:2131492904 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:slider:2131296603 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:home:2131623981 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:house:2131230841 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:user_icon:2131230899 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:chart_icon:2131230827 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:rupee_icon:2131230886 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:refer_icon:2131230884 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:info_icon:2131230847 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:two_arraw:2131230898 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:wallet_icon:2131230900 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:play_icon:2131230878 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:question:2131230882 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:share_icon:2131230891 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:logout_icon:2131230853 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:header:2131492931 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:app_name:2131623963 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_played:2131492906 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:games:2131623978 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_bazar:2131492892 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:market_api:2131624029 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:market_list:2131624030 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:date:2131296375 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:bazar:2131296338 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:bet:2131296341 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:result_layout:2131492966 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_ledger:2131492902 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:ledger:2131623983 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:slider_layout:2131492971 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:played:2131492964 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_notice:2131492905 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_betting:2131492893 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:remark:2131296561 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:result:2131296562 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_deposit_money:2131492897 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:get_gateway:2131623979 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:switchmultibutton:2131296633 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:whatsapp:2131296683 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:refcode:2131296559 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_signup:2131492909 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:register:2131624044 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:progress:2131492965 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:custom_loading_imageView:2131296374 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking drawable:loadgid:2131230849 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:code:2131296359 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:share:2131296594 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_earn:2131492898 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_splash:2131492910 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_webview:2131492913 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:type:2131296673 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_halfsangam:2131492900 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:chart_layout:2131492915 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:draw:2131296401 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:create:2131296370 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:forgot:2131296426 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_login:2131492903 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:login:2131624028 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:transaction:2131492973 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking id:doublegame:2131296393 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking layout:activity_rate:2131492908 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
+Marking string:rate:2131624043 reachable: referenced from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\dex\debug\minifyDebugWithR8\classes.dex
 android.content.res.Resources#getIdentifier present: true
 Web content present: true
 Referenced Strings:
@@ -1460,7 +1460,7 @@ Marking id:number:2131296533 used because it matches string pool constant number
 Marking id:crossing:2131296371 used because it matches string pool constant crossing
 Marking id:crossing:2131296371 used because it matches string pool constant crossing
 Marking string:login:2131624028 used because it matches string pool constant login
-Marking drawable:login_art:2131230848 used because it matches string pool constant login
+Marking drawable:login_art:2131230850 used because it matches string pool constant login
 Marking string:login:2131624028 used because it matches string pool constant login
 Marking id:top:2131296659 used because it matches string pool constant top
 Marking id:top:2131296659 used because it matches string pool constant top
@@ -1511,15 +1511,15 @@ Marking id:dimensions:2131296388 used because it matches string pool constant di
 Marking attr:viewInflaterClass:2130969307 used because it matches string pool constant view
 Marking id:view_offset_helper:2131296680 used because it matches string pool constant view
 Marking id:name:2131296525 used because it matches string pool constant name
-Marking drawable:name_container:2131230861 used because it matches string pool constant name
-Marking drawable:name_gradiant:2131230862 used because it matches string pool constant name
+Marking drawable:name_container:2131230863 used because it matches string pool constant name
+Marking drawable:name_gradiant:2131230864 used because it matches string pool constant name
 Marking id:name:2131296525 used because it matches string pool constant name
 Marking id:singlepatti:2131296601 used because it matches string pool constant singlepatti
 Marking id:singlepatti:2131296601 used because it matches string pool constant singlepatti
-Marking drawable:whatsapp:2131230900 used because it matches string pool constant whatsapp
+Marking drawable:whatsapp:2131230902 used because it matches string pool constant whatsapp
 Marking id:whatsapp:2131296683 used because it matches string pool constant whatsapp
-Marking drawable:whatsapp:2131230900 used because it matches string pool constant whatsapp
-Marking drawable:whatsapps:2131230901 used because it matches string pool constant whatsapp
+Marking drawable:whatsapp:2131230902 used because it matches string pool constant whatsapp
+Marking drawable:whatsapps:2131230903 used because it matches string pool constant whatsapp
 Marking id:whatsapp:2131296683 used because it matches string pool constant whatsapp
 Marking id:whatsapps:2131296684 used because it matches string pool constant whatsapp
 Marking attr:color:2130968724 used because it matches string pool constant color
@@ -1584,8 +1584,8 @@ Marking dimen:item_touch_helper_max_drag_scroll_per_frame:2131165328 used becaus
 Marking dimen:item_touch_helper_swipe_escape_max_velocity:2131165329 used because it matches string pool constant item
 Marking dimen:item_touch_helper_swipe_escape_velocity:2131165330 used because it matches string pool constant item
 Marking id:item_touch_helper_previous_elevation:2131296451 used because it matches string pool constant item
-Marking drawable:wallet_icon:2131230898 used because it matches string pool constant wallet
-Marking drawable:wallet_out:2131230899 used because it matches string pool constant wallet
+Marking drawable:wallet_icon:2131230900 used because it matches string pool constant wallet
+Marking drawable:wallet_out:2131230901 used because it matches string pool constant wallet
 Marking attr:hintAnimationEnabled:2130968881 used because it matches string pool constant hin
 Marking attr:hintEnabled:2130968882 used because it matches string pool constant hin
 Marking attr:hintTextAppearance:2130968883 used because it matches string pool constant hin
@@ -1634,7 +1634,7 @@ Marking attr:fontWeight:2130968868 used because it matches string pool constant 
 Marking color:font:2131099719 used because it matches string pool constant font
 Marking id:email:2131296407 used because it matches string pool constant em
 Marking id:jodi:2131296452 used because it matches string pool constant jodi
-Marking drawable:jodidigit:2131230846 used because it matches string pool constant jodi
+Marking drawable:jodidigit:2131230848 used because it matches string pool constant jodi
 Marking id:jodi:2131296452 used because it matches string pool constant jodi
 Marking attr:framePosition:2130968870 used because it matches string pool constant fr
 Marking attr:content:2130968743 used because it matches string pool constant content
@@ -1709,9 +1709,9 @@ Marking layout:market_layout:2131492932 used because it matches string pool cons
 Marking string:market_api:2131624029 used because it matches string pool constant mar
 Marking string:market_list:2131624030 used because it matches string pool constant mar
 Marking attr:menu:2130969039 used because it matches string pool constant menu
-Marking drawable:menu:2131230858 used because it matches string pool constant menu
+Marking drawable:menu:2131230860 used because it matches string pool constant menu
 Marking attr:menu:2130969039 used because it matches string pool constant menu
-Marking drawable:menu:2131230858 used because it matches string pool constant menu
+Marking drawable:menu:2131230860 used because it matches string pool constant menu
 Marking attr:limitBoundsTo:2130968995 used because it matches string pool constant limit
 Marking id:accelerate:2131296266 used because it matches string pool constant accelerate
 Marking id:accelerate:2131296266 used because it matches string pool constant accelerate
@@ -1756,8 +1756,8 @@ Marking id:single:2131296600 used because it matches string pool constant single
 Marking attr:singleChoiceItemLayout:2130969148 used because it matches string pool constant single
 Marking attr:singleLine:2130969149 used because it matches string pool constant single
 Marking attr:singleSelection:2130969150 used because it matches string pool constant single
-Marking drawable:singledigit:2131230890 used because it matches string pool constant single
-Marking drawable:singlepana:2131230891 used because it matches string pool constant single
+Marking drawable:singledigit:2131230892 used because it matches string pool constant single
+Marking drawable:singlepana:2131230893 used because it matches string pool constant single
 Marking id:single:2131296600 used because it matches string pool constant single
 Marking id:singlepatti:2131296601 used because it matches string pool constant single
 Marking layout:openclosecardview:2131492963 used because it matches string pool constant open
@@ -3790,7 +3790,9 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
     @color/colorAccent
 @drawable/calling : reachable=false
 @drawable/chart_icon : reachable=true
+@drawable/charts_icon : reachable=false
 @drawable/check : reachable=false
+@drawable/circle_background : reachable=false
 @drawable/coin : reachable=false
 @drawable/design_bottom_navigation_item_background : reachable=false
     @attr/colorPrimary
@@ -4856,6 +4858,9 @@ Marking id:tripepatti:2131296671 used because it matches string pool constant tr
     @style/TextAppearance_Compat_Notification_Time
 @layout/openclosecardview : reachable=true
     @color/md_black_1000
+    @drawable/youtube
+    @drawable/charts_icon
+    @drawable/circle_background
     @drawable/name_container
 @layout/played : reachable=true
     @color/font
@@ -8589,33 +8594,33 @@ The root reachable resources are:
  drawable:abc_textfield_search_material:2131230811
  drawable:abc_vector_test:2131230812
  drawable:chart_icon:2131230827
- drawable:house:2131230839
- drawable:info_icon:2131230845
- drawable:jodidigit:2131230846
- drawable:loadgid:2131230847
- drawable:login_art:2131230848
- drawable:logout_icon:2131230851
- drawable:material_drawer_badge:2131230852
- drawable:material_drawer_shadow_left:2131230855
- drawable:material_drawer_shadow_right:2131230856
- drawable:material_drawer_shadow_top:2131230857
- drawable:menu:2131230858
- drawable:name_container:2131230861
- drawable:name_gradiant:2131230862
- drawable:navigation_empty_icon:2131230863
- drawable:play_icon:2131230876
- drawable:question:2131230880
- drawable:refer_icon:2131230882
- drawable:rupee_icon:2131230884
- drawable:share_icon:2131230889
- drawable:singledigit:2131230890
- drawable:singlepana:2131230891
- drawable:two_arraw:2131230896
- drawable:user_icon:2131230897
- drawable:wallet_icon:2131230898
- drawable:wallet_out:2131230899
- drawable:whatsapp:2131230900
- drawable:whatsapps:2131230901
+ drawable:house:2131230841
+ drawable:info_icon:2131230847
+ drawable:jodidigit:2131230848
+ drawable:loadgid:2131230849
+ drawable:login_art:2131230850
+ drawable:logout_icon:2131230853
+ drawable:material_drawer_badge:2131230854
+ drawable:material_drawer_shadow_left:2131230857
+ drawable:material_drawer_shadow_right:2131230858
+ drawable:material_drawer_shadow_top:2131230859
+ drawable:menu:2131230860
+ drawable:name_container:2131230863
+ drawable:name_gradiant:2131230864
+ drawable:navigation_empty_icon:2131230865
+ drawable:play_icon:2131230878
+ drawable:question:2131230882
+ drawable:refer_icon:2131230884
+ drawable:rupee_icon:2131230886
+ drawable:share_icon:2131230891
+ drawable:singledigit:2131230892
+ drawable:singlepana:2131230893
+ drawable:two_arraw:2131230898
+ drawable:user_icon:2131230899
+ drawable:wallet_icon:2131230900
+ drawable:wallet_out:2131230901
+ drawable:whatsapp:2131230902
+ drawable:whatsapps:2131230903
  id:SHOW_ALL:2131296262
  id:SHOW_PATH:2131296263
  id:SHOW_PROGRESS:2131296264
@@ -8997,7 +9002,6 @@ Skipped unused resource res/drawable/notification_tile_bg.xml: 319 bytes (replac
 Skipped unused resource res/drawable/sangamfull.png: 16600 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/sangamhalf.png: 16993 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable/triplepana.png: 15997 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/youtube.png: 17377 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-v21/$avd_hide_password__0.xml: 1644 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/$avd_hide_password__1.xml: 913 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-v21/$avd_hide_password__2.xml: 654 bytes (replaced with small dummy file of size 9 bytes)
