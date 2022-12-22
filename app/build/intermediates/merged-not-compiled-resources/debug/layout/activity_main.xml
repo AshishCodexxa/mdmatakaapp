@@ -196,50 +196,68 @@
                         android:layout_marginBottom="10dp"
                         android:background="#5BD8E4EA" />
 
-                    <include
-                        layout="@layout/openclosecardview"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp" />
+                    <!--     <include
+                             android:id="@+id/openGame"
+                             layout="@layout/result_layout"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginRight="10dp" />
 
-                    <include
-                        layout="@layout/openclosecardview"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp" />
+                         <include
+                             layout="@layout/openclosecardview"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginRight="10dp" />
 
-                    <include
-                        layout="@layout/openclosecardview"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp" />
+                         <include
+                             layout="@layout/openclosecardview"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginRight="10dp" />
 
-                    <include
-                        layout="@layout/openclosecardview"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp" />
+                         <include
+                             layout="@layout/openclosecardview"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginRight="10dp" />
 
-                    <include
-                        layout="@layout/openclosecardview"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp" />
+                         <include
+                             layout="@layout/openclosecardview"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginRight="10dp" />
 
-                    <include
-                        layout="@layout/openclosecardview"
+                         <include
+                             layout="@layout/openclosecardview"
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_marginRight="10dp" />-->
+
+                    <!-- <androidx.recyclerview.widget.RecyclerView
+                         android:id="@+id/recyclerview"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp" />-->
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp" />
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="20dp" />
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/single"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -266,6 +284,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/jodi"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -292,6 +311,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/singlepatti"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -318,6 +338,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/doublepatti"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -344,6 +365,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/tripepatti"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -370,6 +392,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/halfsangam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -396,6 +419,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/fullsangam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -422,6 +446,7 @@
 
 
                     <androidx.cardview.widget.CardView
+                        android:visibility="gone"
                         android:id="@+id/crossing"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -456,7 +481,7 @@
                         android:gravity="left"
                         android:padding="10dp"
                         android:text="Live Results"
-                        android:textColor="@color/font"
+                        android:textColor="@color/md_white_1000"
                         android:textSize="17sp" />
 
                     <androidx.recyclerview.widget.RecyclerView

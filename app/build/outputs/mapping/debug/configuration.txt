@@ -150,6 +150,7 @@
 -keep class com.md.mataka.chart_menu { <init>(); }
 -keep class com.md.mataka.charts { <init>(); }
 -keep class com.md.mataka.crossing { <init>(); }
+-keep class com.md.mataka.days_game { <init>(); }
 -keep class com.md.mataka.deposit_money { <init>(); }
 -keep class com.md.mataka.earn { <init>(); }
 -keep class com.md.mataka.fullsangam { <init>(); }
@@ -212,6 +213,8 @@
 
 -keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
 
+-keep class androidx.constraintlayout.widget.Barrier { <init>(android.content.Context, android.util.AttributeSet); }
+
 -keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
@@ -224,6 +227,20 @@
 
 -keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
 
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.ChipGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
 -keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
@@ -235,6 +252,20 @@
 -keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textview.MaterialTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.md.mataka.latobold { <init>(android.content.Context, android.util.AttributeSet); }
 
@@ -254,7 +285,7 @@
 
 
 # End of content from C:\Codexxa's Projects\MD MATAKA\mdmatakaapp\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\d467e11bae3c819c59e90024ab0f147a\transformed\material-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\083bd3f816816850587c63c88084f85c\transformed\material-1.4.0\proguard.txt
 # Copyright (C) 2015 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -276,9 +307,33 @@
 }
 
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior
--keepattributes *Annotation*
+-keepattributes RuntimeVisible*Annotation*
 
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\d467e11bae3c819c59e90024ab0f147a\transformed\material-1.0.0\proguard.txt
+# Copyright (C) 2018 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# AppCompatViewInflater reads the viewInflaterClass theme attribute which then
+# reflectively instantiates MaterialComponentsViewInflater using the no-argument
+# constructor. We only need to keep this constructor and the class name if
+# AppCompatViewInflater is also being kept.
+-if class androidx.appcompat.app.AppCompatViewInflater
+-keep class com.google.android.material.theme.MaterialComponentsViewInflater {
+    <init>();
+}
+
+
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\083bd3f816816850587c63c88084f85c\transformed\material-1.4.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\2a96d6afd27d426a81dc1a4a5b304770\transformed\jetified-fastadapter-3.3.0\proguard.txt
 -dontwarn javax.annotation.Nullable
 -dontwarn javax.annotation.ParametersAreNonnullByDefault
@@ -338,52 +393,7 @@
 }
 
 # End of content from C:\Users\Admin\.gradle\caches\transforms-3\54571d26e0a8f3bf65f85bc61447d415\transformed\jetified-volley-1.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\3c8d5038b45d5c7e06719e3f5cfe86bc\transformed\recyclerview-1.0.0\proguard.txt
-# Copyright (C) 2015 The Android Open Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# When layoutManager xml attribute is used, RecyclerView inflates
-#LayoutManagers' constructors using reflection.
--keep public class * extends androidx.recyclerview.widget.RecyclerView$LayoutManager {
-    public <init>(android.content.Context, android.util.AttributeSet, int, int);
-    public <init>();
-}
-
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\3c8d5038b45d5c7e06719e3f5cfe86bc\transformed\recyclerview-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\b93eef4fe68cffae3bac95b7e99908bd\transformed\vectordrawable-animated-1.1.0\proguard.txt
-# Copyright (C) 2016 The Android Open Source Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-# keep setters in VectorDrawables so that animations can still work.
--keepclassmembers class androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$* {
-   void set*(***);
-   *** get*();
-}
-
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\b93eef4fe68cffae3bac95b7e99908bd\transformed\vectordrawable-animated-1.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\e14ac85f1126e7980db99141db0fde12\transformed\coordinatorlayout-1.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -407,8 +417,8 @@
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
 -keepattributes *Annotation*
 
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\e14ac85f1126e7980db99141db0fde12\transformed\coordinatorlayout-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\07a022b84336d680233208813520dab4\transformed\transition-1.0.0\proguard.txt
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\f911dcf170c4355b55309601278b778a\transformed\coordinatorlayout-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\a2c7c23218f384913fe2512ef70723c2\transformed\transition-1.2.0\proguard.txt
 # Copyright (C) 2017 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -428,26 +438,76 @@
   androidx.transition.ChangeBounds$ViewBounds mViewBounds;
 }
 
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\07a022b84336d680233208813520dab4\transformed\transition-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\7665d3ff34a382445f9264fa4f98c521\transformed\core-1.3.1\proguard.txt
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\a2c7c23218f384913fe2512ef70723c2\transformed\transition-1.2.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\b93eef4fe68cffae3bac95b7e99908bd\transformed\vectordrawable-animated-1.1.0\proguard.txt
+# Copyright (C) 2016 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# keep setters in VectorDrawables so that animations can still work.
+-keepclassmembers class androidx.vectordrawable.graphics.drawable.VectorDrawableCompat$* {
+   void set*(***);
+   *** get*();
+}
+
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\b93eef4fe68cffae3bac95b7e99908bd\transformed\vectordrawable-animated-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\3b71fbf17a6746615fe9f21ef5dcafbe\transformed\recyclerview-1.1.0\proguard.txt
+# Copyright (C) 2015 The Android Open Source Project
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# When layoutManager xml attribute is used, RecyclerView inflates
+#LayoutManagers' constructors using reflection.
+-keep public class * extends androidx.recyclerview.widget.RecyclerView$LayoutManager {
+    public <init>(android.content.Context, android.util.AttributeSet, int, int);
+    public <init>();
+}
+
+-keepclassmembers class androidx.recyclerview.widget.RecyclerView {
+    public void suppressLayout(boolean);
+    public boolean isLayoutSuppressed();
+}
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\3b71fbf17a6746615fe9f21ef5dcafbe\transformed\recyclerview-1.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\09dce287f966ede6f56d2bc091f83727\transformed\core-1.5.0\proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
 }
--keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.WindowInsetsCompat$Impl* {
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.WindowInsetsCompat$*Impl* {
   <methods>;
 }
--keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.WindowInsetsCompat$BuilderImpl* {
+-keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.app.NotificationCompat$*$Api*Impl {
   <methods>;
 }
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\7665d3ff34a382445f9264fa4f98c521\transformed\core-1.3.1\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\0ea42c865054b364379dbe4bb3707cc1\transformed\versionedparcelable-1.1.0\proguard.txt
--keep public class * implements androidx.versionedparcelable.VersionedParcelable
+
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\09dce287f966ede6f56d2bc091f83727\transformed\core-1.5.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\06b0c4c23da14e1f45d060a21f70c776\transformed\versionedparcelable-1.1.1\proguard.txt
+-keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\0ea42c865054b364379dbe4bb3707cc1\transformed\versionedparcelable-1.1.0\proguard.txt
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\06b0c4c23da14e1f45d060a21f70c776\transformed\versionedparcelable-1.1.1\proguard.txt
 # The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\bf898c14d0aea9ceea57da5ea86a3435\transformed\lifecycle-runtime-2.1.0\proguard.txt
 -keepattributes *Annotation*
 
@@ -496,7 +556,7 @@
 }
 
 # End of content from C:\Users\Admin\.gradle\caches\transforms-3\82fdab6e185189cb17a050496bf0a9df\transformed\jetified-savedstate-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\29a0c8f0cdc72f051ca86e2119433c3f\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\Admin\.gradle\caches\transforms-3\a2470b4f43aa0c168fa7b1c3f589e55e\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -512,7 +572,11 @@
     @androidx.annotation.Keep <init>(...);
 }
 
-# End of content from C:\Users\Admin\.gradle\caches\transforms-3\29a0c8f0cdc72f051ca86e2119433c3f\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+-keepclassmembers,allowobfuscation class * {
+  @androidx.annotation.DoNotInline <methods>;
+}
+
+# End of content from C:\Users\Admin\.gradle\caches\transforms-3\a2470b4f43aa0c168fa7b1c3f589e55e\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 -ignorewarnings
 # End of content from <unknown>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:background="@color/background"
+    android:background="@color/md_black_1000"
     android:layout_height="150dp">
 
 
@@ -12,15 +12,15 @@
     android:orientation="horizontal"
     android:layout_marginBottom="20dp"
     android:layout_marginLeft="20dp"
-    android:layout_marginTop="60dp"
-    android:layout_height="wrap_content">
+    android:layout_marginTop="50dp"
+    android:layout_height="90dp">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_height="45dp"
+        android:layout_height="80dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/logo_wide_1"
+        android:src="@drawable/placeholder"
         />
 
 

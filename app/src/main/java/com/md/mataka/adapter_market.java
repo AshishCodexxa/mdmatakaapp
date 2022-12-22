@@ -6,11 +6,13 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -22,14 +24,17 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
     ArrayList<String> name = new ArrayList<>();
     ArrayList<String> is_open = new ArrayList<>();
     private ArrayList<String> time = new ArrayList<>();
+    private ArrayList<String> close_time = new ArrayList<>();
+
     private ArrayList<String> numbers = new ArrayList<>();
 
-    public adapter_market(Context context,String game, ArrayList<String> name, ArrayList<String> is_open, ArrayList<String> time,ArrayList<String> numbers) {
+    public adapter_market(Context context,String game, ArrayList<String> name, ArrayList<String> is_open, ArrayList<String> open_time,ArrayList<String> close_time,ArrayList<String> numbers) {
         this.context = context;
         this.game = game;
         this.name = name;
         this.is_open = is_open;
-        this.time = time;
+        this.time = open_time;
+        this.close_time = close_time;
         this.numbers = numbers;
     }
 
@@ -47,9 +52,9 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 
         holder.name.setText(name.get(position));
         holder.time.setText(time.get(position));
-
+        holder.close_time.setText(close_time.get(position));
         if (is_open.get(position).equals("1")) {
-            holder.layout.setBackgroundColor(context.getResources().getColor(R.color.md_green_800));
+//            holder.layout.setBackgroundColor(context.getResources().getColor(R.color.md_green_800));
 
             holder.layout.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -79,7 +84,7 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
                 }
             });
 
-            holder.layout.setBackgroundColor(context.getResources().getColor(R.color.md_red_600));
+//            holder.layout.setBackgroundColor(context.getResources().getColor(R.color.md_red_600));
         }
 
 
@@ -95,14 +100,15 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name,time;
-        RelativeLayout layout;
+        TextView name,time,close_time;
+        LinearLayout layout;
 
         public ViewHolder(View view) {
             super(view);
             layout = view.findViewById(R.id.layout);
             name = view.findViewById(R.id.name);
             time = view.findViewById(R.id.time);
+            close_time= view.findViewById(R.id.close_time);
 
 
         }

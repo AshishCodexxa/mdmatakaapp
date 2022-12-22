@@ -21,6 +21,13 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.md.mataka.days_game"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity android:name="com.md.mataka.deposit_money" />
         <activity android:name="com.md.mataka.webview" />
         <activity android:name="com.md.mataka.chart_menu" />

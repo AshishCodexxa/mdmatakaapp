@@ -4,8 +4,6 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,34 +12,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.md.mataka.deposit_money"></activity>
-        <activity android:name="com.md.mataka.webview" />
-        <activity android:name="com.md.mataka.chart_menu" />
-        <activity android:name="com.md.mataka.charts" />
-        <activity android:name="com.md.mataka.crossing" />
-        <activity android:name="com.md.mataka.earn" />
-        <activity android:name="com.md.mataka.fullsangam" />
-        <activity android:name="com.md.mataka.halfsangam" />
-        <activity android:name="com.md.mataka.betting" />
-        <activity android:name="com.md.mataka.splash">
+        <activity
+            android:name=".days_game"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".deposit_money" />
+        <activity android:name=".webview" />
+        <activity android:name=".chart_menu" />
+        <activity android:name=".charts" />
+        <activity android:name=".crossing" />
+        <activity android:name=".earn" />
+        <activity android:name=".fullsangam" />
+        <activity android:name=".halfsangam" />
+        <activity android:name=".betting" />
+        <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.md.mataka.ledger" />
-        <activity android:name="com.md.mataka.transactions" />
-        <activity android:name="com.md.mataka.played" />
-        <activity android:name="com.md.mataka.howot" />
-        <activity android:name="com.md.mataka.thankyou" />
-        <activity android:name="com.md.mataka.bazar" />
-        <activity android:name="com.md.mataka.notice" />
-        <activity android:name="com.md.mataka.rate" />
-        <activity android:name="com.md.mataka.profile" />
-        <activity android:name="com.md.mataka.signup" />
-        <activity android:name="com.md.mataka.login" />
-        <activity android:name="com.md.mataka.MainActivity" />
+        <activity android:name=".ledger" />
+        <activity android:name=".transactions" />
+        <activity android:name=".played" />
+        <activity android:name=".howot" />
+        <activity android:name=".thankyou" />
+        <activity android:name=".bazar" />
+        <activity android:name=".notice" />
+        <activity android:name=".rate" />
+        <activity android:name=".profile" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

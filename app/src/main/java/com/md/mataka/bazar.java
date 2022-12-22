@@ -353,6 +353,7 @@ public class bazar extends AppCompatActivity {
                             ArrayList<String> name = new ArrayList<>();
                             ArrayList<String> is_open = new ArrayList<>();
                             ArrayList<String> time = new ArrayList<>();
+                            ArrayList<String> close = new ArrayList<>();
 
                             for (int a = 0; a < jsonArray.length(); a++)
                             {
@@ -366,14 +367,16 @@ public class bazar extends AppCompatActivity {
                                     name.add(jsonObject.getString("market") + " CLOSE");
                                     is_open.add(jsonObject.getString("is_close"));
                                     time.add(jsonObject.getString("close"));
+                                    close.add(jsonObject.getString("close"));
                                 } else {
                                     name.add(jsonObject.getString("market"));
                                     is_open.add(jsonObject.getString("is_open"));
                                     time.add(jsonObject.getString("open"));
+                                    close.add(jsonObject.getString("close"));
                                 }
                             }
 
-                            adapter_market rc = new adapter_market(bazar.this,game,name,is_open,time,number);
+                            adapter_market rc = new adapter_market(bazar.this,game,name,is_open,time,close,number);
                             recyclerview.setLayoutManager(new GridLayoutManager(bazar.this, 2));
                             recyclerview.setAdapter(rc);
                             rc.notifyDataSetChanged();
