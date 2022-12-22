@@ -81,7 +81,9 @@ public class deposit_money extends AppCompatActivity {
                     }
 
 //                    startActivity(new Intent(deposit_money.this,webview.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK).putExtra("amount",amount.getText().toString()).putExtra("gateway",gateway));
-                    Uri uri = Uri.parse("upi://pay?pa=BHARATPE09891517390@yesbankltd&pn=md matka&tr=md123&cu=INR&am=" + amount.getText().toString());
+                    Uri uri = Uri.parse("upi://pay?pa=bharatpe09891517390@yesbankltd&pn=md matka&tr=md123&cu=INR&am=" + amount.getText().toString());
+
+                    //BHARATPE09891517390@yesbankltd
 
                     Log.e("TAG", "onClick: " + uri.toString());
 

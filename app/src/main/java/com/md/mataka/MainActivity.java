@@ -2,6 +2,7 @@ package com.md.mataka;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
@@ -10,6 +11,7 @@ import android.os.Process;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -59,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     protected CardView refresh;
     protected TextView supportno;
     protected CardView support;
+    protected ImageView whats;
     RecyclerView recyclerview;
     SharedPreferences preferences;
     String url;
@@ -267,6 +270,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        whats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String url = "https://api.whatsapp.com/send?phone=918641076112";
+
+                try{
+                    PackageManager pm = getApplicationContext().getPackageManager();
+                    pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(url));
+                    startActivity(i);
+
+                } catch (PackageManager.NameNotFoundException e) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                }
+            }
+        });
 
         Typeface face = Typeface.createFromAsset(getAssets(), "Oxygen-Bold.ttf");
 
@@ -875,6 +897,7 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         balance = findViewById(R.id.balance);
 //        hometext = findViewById(R.id.hometext);
+        whats = findViewById(R.id.whatsapps);
         single = findViewById(R.id.single);
         jodi = findViewById(R.id.jodi);
         crossing = findViewById(R.id.crossing);
