@@ -329,7 +329,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        final Drawer drawer = new DrawerBuilder()
+        final Drawer drawer = new DrawerBuilder().withDrawerWidthPx(700)
                 .withHeaderDivider(true)
                 .withActivity(this)
                 .withSliderBackgroundColor(getResources().getColor(android.R.color.black))
