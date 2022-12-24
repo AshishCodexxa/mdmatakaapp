@@ -170,11 +170,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Refreshing...", Toast.LENGTH_SHORT).show();
+                apicall();
                 apicall2();
             }
         });
 
         preferences = getSharedPreferences(constant.prefs, MODE_PRIVATE);
+        apicall();
         apicall2();
 
         if (preferences.getString("wallet", null) != null) {
@@ -675,6 +677,106 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private void apicall() {
+
+
+        RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
+
+        final StringRequest postRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+
+                            Log.e("Rsponnnnnn==>", response);
+
+                            JSONObject jsonObject1 = new JSONObject(response);
+
+                            if (jsonObject1.getString("active").equals("0")) {
+                                Toast.makeText(MainActivity.this, "Your account temporarily disabled by admin", Toast.LENGTH_SHORT).show();
+
+                                preferences.edit().clear().apply();
+                                Intent in = new Intent(getApplicationContext(), login.class);
+                                in.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                in.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                startActivity(in);
+                                finish();
+                            }
+
+                            if (!jsonObject1.getString("session").equals(getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null))) {
+                                Toast.makeText(MainActivity.this, "Session expired ! Please login again", Toast.LENGTH_SHORT).show();
+
+                                preferences.edit().clear().apply();
+                                Intent in = new Intent(getApplicationContext(), login.class);
+                                in.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                in.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                                startActivity(in);
+                                finish();
+                            }
+
+                            balance.setText(jsonObject1.getString("wallet"));
+
+
+
+
+                            ArrayList<String> name = new ArrayList<>();
+                            ArrayList<String> result = new ArrayList<>();
+
+                            JSONArray jsonArray = jsonObject1.getJSONArray("result");
+                            for (int a = 0; a < jsonArray.length(); a++){
+                                JSONObject jsonObject = jsonArray.getJSONObject(a);
+
+                                name.add(jsonObject.getString("market"));
+                                result.add(jsonObject.getString("result"));
+
+                            }
+
+
+                            adapter_result rc = new adapter_result(MainActivity.this,name,result);
+                            recyclerview.setLayoutManager(new GridLayoutManager(MainActivity.this, 2));
+                            recyclerview.setAdapter(rc);
+                            rc.notifyDataSetChanged();
+
+
+                            SharedPreferences.Editor editor = preferences.edit();
+                            editor.putString("wallet", jsonObject1.getString("wallet")).apply();
+                            editor.putString("homeline", jsonObject1.getString("homeline")).apply();
+                            editor.putString("code", jsonObject1.getString("code")).apply();
+                            is_gateway = jsonObject1.getString("gateway");
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+
+
+                            Toast.makeText(MainActivity.this, "Something went wrong !", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                        error.printStackTrace();
+
+                        Toast.makeText(MainActivity.this, "Check your internet connection", Toast.LENGTH_SHORT).show();
+                    }
+                }
+        ) {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+
+                params.put("mobile", preferences.getString("mobile", null));
+                params.put("session",getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
+
+                return params;
+            }
+        };
+        postRequest.setRetryPolicy(new DefaultRetryPolicy(0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        requestQueue.add(postRequest);
+    }
+
     private void apicall2() {
 
 
@@ -745,6 +847,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        apicall();
         apicall2();
         super.onResume();
     }
