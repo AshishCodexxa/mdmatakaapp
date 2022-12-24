@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
     String url3 = "https://cdn-ak.f.st-hatena.com/images/fotolife/k/kingsatta143/20180209/20180209230728.jpg";
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
