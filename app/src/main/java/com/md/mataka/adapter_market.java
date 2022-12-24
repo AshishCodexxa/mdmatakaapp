@@ -5,6 +5,7 @@ import static androidx.core.content.ContextCompat.startActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,20 +63,23 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
             holder.layout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    switch (game) {
-                        case "halfsangam":
-                            context.startActivity(new Intent(context, halfsangam.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-                            break;
-                        case "fullsangam":
-                            context.startActivity(new Intent(context, fullsangam.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-                            break;
-                        case "crossing":
-                            context.startActivity(new Intent(context, crossing.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-                            break;
-                        default:
-                            context.startActivity(new Intent(context, betting.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-                            break;
-                    }
+//                    switch (game) {
+//                        case "halfsangam":
+//                            context.startActivity(new Intent(context, halfsangam.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+//                            break;
+//                        case "fullsangam":
+//                            context.startActivity(new Intent(context, fullsangam.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+//                            break;
+//                        case "crossing":
+//                            context.startActivity(new Intent(context, crossing.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+//                            break;
+//                        default:
+//                            context.startActivity(new Intent(context, betting.class).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).putExtra("game", game).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+//                            break;
+//                    }
+
+                    Log.e("All Games ---- ", game);
+                    context.startActivity(new Intent(context, days_game.class).putExtra("game",game).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
                 }
             });
 

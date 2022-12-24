@@ -32,6 +32,7 @@
             android:src="@drawable/back" />
 
         <TextView
+            android:id="@+id/headName"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:gravity="center_vertical"
@@ -46,7 +47,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/single"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="120dp"
@@ -57,7 +58,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/jodi"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="36dp"
@@ -65,21 +66,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/single" />
 
 
     <ImageView
+        android:id="@+id/singlepatti"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="36dp"
         android:src="@drawable/singlepana"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.728"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/halfsangam"
+        app:layout_constraintTop_toBottomOf="@+id/single" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/halfsangam"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="332dp"
@@ -87,20 +89,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/single" />
 
     <ImageView
+        android:id="@+id/tripepatti"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="196dp"
         android:src="@drawable/triplepana"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.728"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/doublepatti"
+        app:layout_constraintTop_toBottomOf="@+id/single" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/doublepatti"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="188dp"
@@ -108,16 +111,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/single" />
 
     <ImageView
+        android:id="@+id/fullsangam"
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginTop="332dp"
         android:src="@drawable/sangamfull"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.728"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/halfsangam"
+        app:layout_constraintTop_toBottomOf="@+id/single" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
