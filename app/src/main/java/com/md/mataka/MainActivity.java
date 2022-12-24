@@ -54,34 +54,32 @@ public class MainActivity extends AppCompatActivity {
     protected CardView tripepatti;
     protected CardView halfsangam;
     protected CardView fullsangam;
-    //    protected latonormal hometext;
+    protected latonormal hometext;
     protected CardView crossing;
     protected CardView exit;
     protected CardView logout;
     protected CardView refresh;
     protected TextView supportno;
     protected CardView support;
-    protected ImageView whats;
-    RecyclerView recyclerview;
+    RecyclerView recyclerview, recyclerViews;
     SharedPreferences preferences;
     String url;
     String url7;
     String is_gateway = "0";
-    ArrayList<String> number = new ArrayList<>();
     String game;
+    ArrayList<String> number = new ArrayList<>();
 
-    ViewDialog progressDialog;
-    //    protected View openGame;
     String url1 = "https://kannada.cdn.zeenews.com/kannada/sites/default/files/2021/02/12/202566-lakshmi.gif";
     String url2 = "https://www.hindigurujee.in/wp-content/uploads/2022/04/PicsArt_04-30-01.39.01.jpg";
     String url3 = "https://cdn-ak.f.st-hatena.com/images/fotolife/k/kingsatta143/20180209/20180209230728.jpg";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.activity_main);
         initViews();
-        url = constant.prefix + getResources().getString(R.string.market_api);
+        url = constant.prefix + getString(R.string.home);
         url7 = constant.prefix + getResources().getString(R.string.market_list);
         ArrayList<SliderDataStore> sliderDataArrayList = new ArrayList<>();
 
@@ -104,8 +102,6 @@ public class MainActivity extends AppCompatActivity {
         sliderView.setAutoCycle(true);
 
         sliderView.startAutoCycle();
-
-//        url = constant.prefix + getString(R.string.home);
 
 
         game = getIntent().getStringExtra("game");
@@ -135,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
                 triplepatti();
                 break;
         }
+
+
 
         support.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -167,26 +165,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-//        openGame.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(MainActivity.this, days_game.class));
-//            }
-//        });
-
-
         refresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Refreshing...", Toast.LENGTH_SHORT).show();
-//                apicall();
+                apicall();
                 apicall2();
             }
         });
 
         preferences = getSharedPreferences(constant.prefs, MODE_PRIVATE);
-//        apicall();
+        apicall();
         apicall2();
 
         if (preferences.getString("wallet", null) != null) {
@@ -195,15 +184,15 @@ public class MainActivity extends AppCompatActivity {
             balance.setText("Loading");
         }
 
-        if (preferences.getString("homeline", null) != null) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+//        if (preferences.getString("homeline", null) != null) {
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
 //                hometext.setText(Html.fromHtml(preferences.getString("homeline", null), Html.FROM_HTML_MODE_COMPACT));
-            } else {
+//            } else {
 //                hometext.setText(Html.fromHtml(preferences.getString("homeline", null)));
-            }
-        } else {
+//            }
+//        } else {
 //            hometext.setText("Loading...");
-        }
+//        }
 
 
         single.setOnClickListener(new View.OnClickListener() {
@@ -270,25 +259,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        whats.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                String url = "https://api.whatsapp.com/send?phone=918641076112";
-
-                try{
-                    PackageManager pm = getApplicationContext().getPackageManager();
-                    pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
-                    Intent i = new Intent(Intent.ACTION_VIEW);
-                    i.setData(Uri.parse(url));
-                    startActivity(i);
-
-                } catch (PackageManager.NameNotFoundException e) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
-                }
-            }
-        });
 
         Typeface face = Typeface.createFromAsset(getAssets(), "Oxygen-Bold.ttf");
 
@@ -438,6 +408,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
 
 
     public void single() {
@@ -693,87 +664,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void apicall2() {
-
-//        progressDialog = new ViewDialog(MainActivity.this);
-//        progressDialog.showDialog();
-//
-        RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-
-        final StringRequest postRequest = new StringRequest(Request.Method.POST, url7,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-//                        progressDialog.hideDialog();
-
-                        Log.e("Rspo==>", response);
-
-                        try {
-                            JSONObject jsonObject1 = new JSONObject(response);
-
-                            JSONArray jsonArray = jsonObject1.getJSONArray("data");
-
-                            Log.e("Rspo==>", jsonObject1.getJSONArray("data").get(0).toString());
-
-                            ArrayList<String> name = new ArrayList<>();
-                            ArrayList<String> is_open = new ArrayList<>();
-                            ArrayList<String> open_time = new ArrayList<>();
-                            ArrayList<String> close_time = new ArrayList<>();
-
-                            for (int a = 0; a < jsonArray.length(); a++) {
-                                JSONObject jsonObject = jsonArray.getJSONObject(a);
-
-//                                if (!game.equals("jodi")) {
-                                    name.add(jsonObject.getString("market"));
-                                    is_open.add(jsonObject.getString("is_open"));
-                                    open_time.add(jsonObject.getString("open"));
-                                   close_time.add(jsonObject.getString("close"));
-//                                    name.add(jsonObject.getString("market") + " CLOSE");
-//                                    is_open.add(jsonObject.getString("is_close"));
-//                                    time.add(jsonObject.getString("close"));
-//                                } else {
-//                                    name.add(jsonObject.getString("market"));
-//                                    is_open.add(jsonObject.getString("is_open"));
-//                                    time.add(jsonObject.getString("open"));
-//                                }
-                            }
-
-                            adapter_market rc = new adapter_market(MainActivity.this, game, name, is_open, open_time,close_time, number);
-                            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
-                            recyclerview.setLayoutManager(linearLayoutManager);
-                            recyclerview.setAdapter(rc);
-                            rc.notifyDataSetChanged();
-
-
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-//                            progressDialog.hideDialog();
-                        }
-                    }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-
-                        error.printStackTrace();
-//                        progressDialog.hideDialog();
-                        Toast.makeText(MainActivity.this, "Check your internet connection", Toast.LENGTH_SHORT).show();
-                    }
-                }
-        ) {
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
-
-
-                params.put("session", getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
-                return params;
-            }
-        };
-        postRequest.setRetryPolicy(new DefaultRetryPolicy(0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
-        requestQueue.add(postRequest);
-    }
-
 
     private void apicall() {
 
@@ -812,18 +702,20 @@ public class MainActivity extends AppCompatActivity {
 
                             balance.setText(jsonObject1.getString("wallet"));
 
-                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+//                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
 //                                hometext.setText(Html.fromHtml(jsonObject1.getString("homeline"), Html.FROM_HTML_MODE_COMPACT));
-                            } else {
+//                            } else {
 //                                hometext.setText(Html.fromHtml(jsonObject1.getString("homeline")));
-                            }
+//                            }
+
+
 
 
                             ArrayList<String> name = new ArrayList<>();
                             ArrayList<String> result = new ArrayList<>();
 
                             JSONArray jsonArray = jsonObject1.getJSONArray("result");
-                            for (int a = 0; a < jsonArray.length(); a++) {
+                            for (int a = 0; a < jsonArray.length(); a++){
                                 JSONObject jsonObject = jsonArray.getJSONObject(a);
 
                                 name.add(jsonObject.getString("market"));
@@ -832,9 +724,8 @@ public class MainActivity extends AppCompatActivity {
                             }
 
 
-                            adapter_result rc = new adapter_result(MainActivity.this, name, result);
-                            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
-                            recyclerview.setLayoutManager(linearLayoutManager);
+                            adapter_result rc = new adapter_result(MainActivity.this,name,result);
+                            recyclerview.setLayoutManager(new GridLayoutManager(MainActivity.this, 2));
                             recyclerview.setAdapter(rc);
                             rc.notifyDataSetChanged();
 
@@ -869,8 +760,78 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
 
                 params.put("mobile", preferences.getString("mobile", null));
-                params.put("session", getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
+                params.put("session",getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
 
+                return params;
+            }
+        };
+        postRequest.setRetryPolicy(new DefaultRetryPolicy(0, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        requestQueue.add(postRequest);
+    }
+
+    private void apicall2() {
+
+
+        RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
+
+        final StringRequest postRequest = new StringRequest(Request.Method.POST, url7,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+
+                        Log.e("Rspo==>", response);
+
+                        try {
+                            JSONObject jsonObject1 = new JSONObject(response);
+
+                            JSONArray jsonArray = jsonObject1.getJSONArray("data");
+
+                            Log.e("Rspo==>", jsonObject1.getJSONArray("data").get(0).toString());
+
+                            ArrayList<String> name = new ArrayList<>();
+                            ArrayList<String> is_open = new ArrayList<>();
+                            ArrayList<String> open_time = new ArrayList<>();
+                            ArrayList<String> close_time = new ArrayList<>();
+
+                            for (int a = 0; a < jsonArray.length(); a++) {
+                                JSONObject jsonObject = jsonArray.getJSONObject(a);
+
+                                name.add(jsonObject.getString("market"));
+                                is_open.add(jsonObject.getString("is_open"));
+                                open_time.add(jsonObject.getString("open"));
+                                close_time.add(jsonObject.getString("close"));
+
+                            }
+
+                            adapter_market rc = new adapter_market(MainActivity.this, game, name, is_open, open_time,close_time, number);
+                            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
+                            recyclerViews.setLayoutManager(linearLayoutManager);
+                            recyclerViews.setAdapter(rc);
+                            rc.notifyDataSetChanged();
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+//                            progressDialog.hideDialog();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+
+                        error.printStackTrace();
+//                        progressDialog.hideDialog();
+                        Toast.makeText(MainActivity.this, "Check your internet connection", Toast.LENGTH_SHORT).show();
+                    }
+                }
+        ) {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+
+
+                params.put("session", getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
                 return params;
             }
         };
@@ -880,7 +841,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-//        apicall();
+        apicall();
         apicall2();
         super.onResume();
     }
@@ -894,10 +855,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     private void initViews() {
         balance = findViewById(R.id.balance);
 //        hometext = findViewById(R.id.hometext);
-        whats = findViewById(R.id.whatsapps);
         single = findViewById(R.id.single);
         jodi = findViewById(R.id.jodi);
         crossing = findViewById(R.id.crossing);
@@ -913,5 +874,6 @@ public class MainActivity extends AppCompatActivity {
         support = findViewById(R.id.support);
         scrollView = findViewById(R.id.scrollView);
         recyclerview = findViewById(R.id.recyclerview);
+        recyclerViews = findViewById(R.id.recyclerviews);
     }
 }

@@ -1,6 +1,8 @@
 package com.md.mataka;
 
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -15,6 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
@@ -100,7 +103,7 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name,time,close_time;
+        TextView name,time, close_time;
         LinearLayout layout;
 
         public ViewHolder(View view) {

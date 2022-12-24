@@ -27,6 +27,7 @@ import java.util.Map;
 public class bazar extends AppCompatActivity {
 
 
+
     RecyclerView recyclerview;
 
     ArrayList<String> number = new ArrayList<>();
@@ -367,12 +368,10 @@ public class bazar extends AppCompatActivity {
                                     name.add(jsonObject.getString("market") + " CLOSE");
                                     is_open.add(jsonObject.getString("is_close"));
                                     time.add(jsonObject.getString("close"));
-                                    close.add(jsonObject.getString("close"));
                                 } else {
                                     name.add(jsonObject.getString("market"));
                                     is_open.add(jsonObject.getString("is_open"));
                                     time.add(jsonObject.getString("open"));
-                                    close.add(jsonObject.getString("close"));
                                 }
                             }
 
