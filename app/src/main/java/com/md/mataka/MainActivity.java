@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     protected CardView refresh;
     protected TextView supportno;
     protected CardView support;
+    protected ImageView whatsapps;
     RecyclerView recyclerview, recyclerViews;
     SharedPreferences preferences;
     String url;
@@ -84,12 +85,12 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<SliderDataStore> sliderDataArrayList = new ArrayList<>();
 
         SliderView sliderView = findViewById(R.id.slider);
+        whatsapps = findViewById(R.id.whatsapps);
 
         sliderDataArrayList.add(new SliderDataStore(url1));
         sliderDataArrayList.add(new SliderDataStore(url2));
         sliderDataArrayList.add(new SliderDataStore(url3));
 
-//        openGame = findViewById(R.id.openGame);
 
         SliderAdapter adapter = new SliderAdapter(this, sliderDataArrayList);
 
@@ -184,15 +185,7 @@ public class MainActivity extends AppCompatActivity {
             balance.setText("Loading");
         }
 
-//        if (preferences.getString("homeline", null) != null) {
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-//                hometext.setText(Html.fromHtml(preferences.getString("homeline", null), Html.FROM_HTML_MODE_COMPACT));
-//            } else {
-//                hometext.setText(Html.fromHtml(preferences.getString("homeline", null)));
-//            }
-//        } else {
-//            hometext.setText("Loading...");
-//        }
+
 
 
         single.setOnClickListener(new View.OnClickListener() {
@@ -259,6 +252,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        whatsapps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://api.whatsapp.com/send?phone=918641076112";
+
+                try{
+                    PackageManager pm = getApplicationContext().getPackageManager();
+                    pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(url));
+                    startActivity(i);
+
+                } catch (PackageManager.NameNotFoundException e) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                }
+
+            }
+        });
 
         Typeface face = Typeface.createFromAsset(getAssets(), "Oxygen-Bold.ttf");
 
@@ -702,12 +714,6 @@ public class MainActivity extends AppCompatActivity {
 
                             balance.setText(jsonObject1.getString("wallet"));
 
-//                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-//                                hometext.setText(Html.fromHtml(jsonObject1.getString("homeline"), Html.FROM_HTML_MODE_COMPACT));
-//                            } else {
-//                                hometext.setText(Html.fromHtml(jsonObject1.getString("homeline")));
-//                            }
-
 
 
 
@@ -812,7 +818,6 @@ public class MainActivity extends AppCompatActivity {
 
                         } catch (JSONException e) {
                             e.printStackTrace();
-//                            progressDialog.hideDialog();
                         }
                     }
                 },
@@ -821,7 +826,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
 
                         error.printStackTrace();
-//                        progressDialog.hideDialog();
                         Toast.makeText(MainActivity.this, "Check your internet connection", Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -858,7 +862,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         balance = findViewById(R.id.balance);
-//        hometext = findViewById(R.id.hometext);
         single = findViewById(R.id.single);
         jodi = findViewById(R.id.jodi);
         crossing = findViewById(R.id.crossing);
