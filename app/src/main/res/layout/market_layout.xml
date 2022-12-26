@@ -21,6 +21,7 @@
 
 
         <LinearLayout
+            android:id="@+id/layout"
             android:layout_width="match_parent"
             android:layout_height="84dp"
             android:layout_marginTop="25dp"
@@ -28,7 +29,6 @@
 
 
             <LinearLayout
-                android:id="@+id/layout"
                 android:layout_width="250dp"
                 android:layout_height="84dp"
                 android:orientation="vertical">
@@ -72,7 +72,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_marginRight="40dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/youtube"
                     android:layout_marginTop="5dp"
@@ -83,7 +83,7 @@
                     android:layout_width="120dp"
                     android:layout_height="30dp"
                     android:text="01:41:36"
-                    android:layout_marginRight="10dp"
+                    android:layout_marginRight="20dp"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center"
                     android:textStyle="bold"

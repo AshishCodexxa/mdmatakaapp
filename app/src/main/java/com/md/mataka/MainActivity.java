@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     protected CardView refresh;
     protected TextView supportno;
     protected CardView support;
-    protected ImageView whatsapps, pointadd, pointwithdrawl;
+    protected ImageView whatsapps, pointadd, pointwithdrawl, calling;
     RecyclerView recyclerview, recyclerViews;
     SharedPreferences preferences;
     String url;
@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         whatsapps = findViewById(R.id.whatsapps);
         pointadd = findViewById(R.id.pointadd);
         pointwithdrawl = findViewById(R.id.pointwithdrawl);
+        calling = findViewById(R.id.calling);
 
         sliderDataArrayList.add(new SliderDataStore(url1));
         sliderDataArrayList.add(new SliderDataStore(url2));
@@ -266,6 +267,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openWhatsApp();
+            }
+        });
+
+
+        calling.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String number= "7057691454";
+                Intent callIntent=new Intent(Intent.ACTION_DIAL);
+                callIntent.setData(Uri.parse("tel:8641076112"));
+                startActivity(callIntent);
             }
         });
 

@@ -176,13 +176,13 @@
                             android:paddingRight="5dp"
                             android:src="@drawable/calling" />
 
-                        <ImageView
+                       <!-- <ImageView
                             android:id="@+id/playstarlin"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:paddingTop="3dp"
                             android:paddingRight="5dp"
-                            android:src="@drawable/playstarline" />
+                            android:src="@drawable/playstarline" />-->
 
                         <ImageView
                             android:id="@+id/pointadd"
