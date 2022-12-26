@@ -674,7 +674,6 @@ public class MainActivity extends AppCompatActivity {
             number.add(temp);
         }
 
-
     }
 
 
