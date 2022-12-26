@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     protected CardView refresh;
     protected TextView supportno;
     protected CardView support;
-    protected ImageView whatsapps;
+    protected ImageView whatsapps, pointadd, pointwithdrawl;
     RecyclerView recyclerview, recyclerViews;
     SharedPreferences preferences;
     String url;
@@ -75,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
     String url3 = "https://cdn-ak.f.st-hatena.com/images/fotolife/k/kingsatta143/20180209/20180209230728.jpg";
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
 
         SliderView sliderView = findViewById(R.id.slider);
         whatsapps = findViewById(R.id.whatsapps);
+        pointadd = findViewById(R.id.pointadd);
+        pointwithdrawl = findViewById(R.id.pointwithdrawl);
 
         sliderDataArrayList.add(new SliderDataStore(url1));
         sliderDataArrayList.add(new SliderDataStore(url2));
@@ -133,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
                 triplepatti();
                 break;
         }
-
 
 
         support.setOnClickListener(new View.OnClickListener() {
@@ -185,8 +185,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             balance.setText("Loading");
         }
-
-
 
 
         single.setOnClickListener(new View.OnClickListener() {
@@ -253,13 +251,31 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        pointadd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (is_gateway.equals("1")) {
+                    startActivity(new Intent(MainActivity.this, deposit_money.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                } else {
+                    openWhatsApp();
+                }            }
+        });
+
+
+        pointwithdrawl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openWhatsApp();
+            }
+        });
+
 
         whatsapps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String url = "https://api.whatsapp.com/send?phone=918641076112";
 
-                try{
+                try {
                     PackageManager pm = getApplicationContext().getPackageManager();
                     pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
                     Intent i = new Intent(Intent.ACTION_VIEW);
@@ -421,7 +437,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
 
 
     public void single() {
@@ -717,13 +732,11 @@ public class MainActivity extends AppCompatActivity {
                             balance.setText(jsonObject1.getString("wallet"));
 
 
-
-
                             ArrayList<String> name = new ArrayList<>();
                             ArrayList<String> result = new ArrayList<>();
 
                             JSONArray jsonArray = jsonObject1.getJSONArray("result");
-                            for (int a = 0; a < jsonArray.length(); a++){
+                            for (int a = 0; a < jsonArray.length(); a++) {
                                 JSONObject jsonObject = jsonArray.getJSONObject(a);
 
                                 name.add(jsonObject.getString("market"));
@@ -732,7 +745,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
 
-                            adapter_result rc = new adapter_result(MainActivity.this,name,result);
+                            adapter_result rc = new adapter_result(MainActivity.this, name, result);
                             recyclerview.setLayoutManager(new GridLayoutManager(MainActivity.this, 2));
                             recyclerview.setAdapter(rc);
                             rc.notifyDataSetChanged();
@@ -768,7 +781,7 @@ public class MainActivity extends AppCompatActivity {
                 Map<String, String> params = new HashMap<String, String>();
 
                 params.put("mobile", preferences.getString("mobile", null));
-                params.put("session",getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
+                params.put("session", getSharedPreferences(constant.prefs, MODE_PRIVATE).getString("session", null));
 
                 return params;
             }
@@ -811,7 +824,7 @@ public class MainActivity extends AppCompatActivity {
 
                             }
 
-                            adapter_market rc = new adapter_market(MainActivity.this, game, name, is_open, open_time,close_time, number);
+                            adapter_market rc = new adapter_market(MainActivity.this, game, name, is_open, open_time, close_time, number);
                             LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
                             recyclerViews.setLayoutManager(linearLayoutManager);
                             recyclerViews.setAdapter(rc);
@@ -859,7 +872,6 @@ public class MainActivity extends AppCompatActivity {
         Intent sendIntent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(sendIntent);
     }
-
 
 
     private void initViews() {

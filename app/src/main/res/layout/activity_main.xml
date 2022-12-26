@@ -185,7 +185,7 @@
                             android:src="@drawable/playstarline" />
 
                         <ImageView
-                            android:id="@+id/pountadd"
+                            android:id="@+id/pointadd"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:paddingTop="3dp"
