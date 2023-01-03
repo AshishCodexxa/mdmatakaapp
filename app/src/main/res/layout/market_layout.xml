@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,8 +11,10 @@
         android:id="@+id/card"
         android:layout_width="match_parent"
         android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"
         app:cardBackgroundColor="#dbc989"
-        android:layout_marginTop="30dp"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,20 +37,19 @@
                 <TextView
                     android:layout_width="250dp"
                     android:layout_height="28dp"
-                    android:text="***_**_***"
-                    android:gravity="center"
-                    android:textStyle="bold"
                     android:layout_marginTop="15dp"
-                    android:textColor="#ef0b0b"/>
+                    android:gravity="center"
+                    android:text="***_**_***"
+                    android:textColor="#ef0b0b"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="250dp"
                     android:layout_height="35dp"
-                    android:text="RUNNING FOR TODAY"
-                    android:textStyle="bold"
                     android:gravity="center"
-                    android:textColor="#15a941" />
-
+                    android:text="RUNNING FOR TODAY"
+                    android:textColor="#15a941"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -57,11 +57,10 @@
             <LinearLayout
                 android:layout_width="2dp"
                 android:layout_height="80dp"
-                android:background="@color/md_black_1000"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                />
+                android:background="@color/md_black_1000" />
 
 
             <LinearLayout
@@ -72,27 +71,24 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginRight="40dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/youtube"
-                    android:layout_marginTop="5dp"
                     android:layout_marginLeft="20dp"
-                    />
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:src="@drawable/youtube" />
 
                 <TextView
                     android:layout_width="120dp"
                     android:layout_height="30dp"
-                    android:text="01:41:36"
-                    android:layout_marginRight="20dp"
                     android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="20dp"
                     android:gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#15a941" />
+                    android:text="01:41:36"
+                    android:textColor="#15a941"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
-
-
 
 
         </LinearLayout>
@@ -101,8 +97,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="#ccbd84"
             android:layout_gravity="bottom"
+            android:background="#ccbd84"
             android:orientation="horizontal">
 
 
@@ -110,42 +106,40 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
-                android:src="@drawable/charts_icon"
-                android:background="@drawable/circle_background"
                 android:layout_marginLeft="20dp"
-                android:paddingBottom="3dp"
+                android:background="@drawable/circle_background"
                 android:paddingLeft="3dp"
                 android:paddingRight="3dp"
-                />
+                android:paddingBottom="3dp"
+                android:src="@drawable/charts_icon" />
 
             <TextView
                 android:id="@+id/time"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
-                android:text="02:50 PM"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:textSize="23sp"
                 android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="02:50 PM"
                 android:textColor="@color/md_black_1000"
-                android:textStyle="bold"/>
+                android:textSize="23sp"
+                android:textStyle="bold" />
 
 
             <TextView
                 android:id="@+id/close_time"
                 android:layout_width="130dp"
                 android:layout_height="40dp"
-                android:text="04:50 PM"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:textSize="23sp"
                 android:layout_marginLeft="18dp"
+                android:gravity="center"
+                android:text="04:50 PM"
                 android:textColor="@color/md_black_1000"
-                android:textStyle="bold"/>
+                android:textSize="23sp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
-
 
 
     </androidx.cardview.widget.CardView>
@@ -156,14 +150,14 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginBottom="50dp"
-        android:elevation="6dp"
-        android:text="MILAN DAY"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:textColor="@color/md_black_1000"
-        android:textAlignment="center"
-        android:gravity="center"
         android:background="@drawable/name_container"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:text="MILAN DAY"
+        android:textAlignment="center"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/card"
         app:layout_constraintEnd_toEndOf="@+id/card"
         app:layout_constraintStart_toStartOf="parent"
