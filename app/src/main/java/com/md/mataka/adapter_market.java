@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -32,7 +33,7 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 
     private ArrayList<String> numbers = new ArrayList<>();
 
-    public adapter_market(Context context,String game, ArrayList<String> name, ArrayList<String> is_open, ArrayList<String> open_time,ArrayList<String> close_time,ArrayList<String> numbers) {
+    public adapter_market(Context context, String game, ArrayList<String> name, ArrayList<String> is_open, ArrayList<String> open_time, ArrayList<String> close_time, ArrayList<String> numbers) {
         this.context = context;
         this.game = game;
         this.name = name;
@@ -79,7 +80,7 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 //                    }
 
                     Log.e("All Games ---- ", game);
-                    context.startActivity(new Intent(context, days_game.class).putExtra("game",game).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                    context.startActivity(new Intent(context, days_game.class).putExtra("game", game).putExtra("market", name.get(position).replace(" ", "_")).putExtra("list", numbers).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
                 }
             });
 
@@ -96,6 +97,14 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 
 
         holder.setIsRecyclable(false);
+
+        holder.chart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                context.startActivity(new Intent(holder.itemView.getContext(), chart_menu.class));
+            }
+        });
+
     }
 
 
@@ -107,20 +116,21 @@ class adapter_market extends RecyclerView.Adapter<adapter_market.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name,time, close_time;
+        TextView name, time, close_time;
         LinearLayout layout;
+        ImageView chart;
 
         public ViewHolder(View view) {
             super(view);
             layout = view.findViewById(R.id.layout);
             name = view.findViewById(R.id.name);
             time = view.findViewById(R.id.time);
-            close_time= view.findViewById(R.id.close_time);
-
+            close_time = view.findViewById(R.id.close_time);
+            chart = view.findViewById(R.id.chart);
 
         }
-    }
 
+    }
 
 
 }
